@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <title>Teszt eredmények</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Teszt eredmények</h2>
+    <p><strong>Helyes válaszok száma:</strong> {{ correct }} / {{ total }}</p>
+
+    <h3>Grafikus megjelenítés</h3>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Eredménydiagram">
+
+    <h3>Részletes válaszok</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Kérdés</th>
+                <th>A Te válaszod</th>
+                <th>Helyes válasz</th>
+                <th>Találat</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for q in quiz %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ q['question'] }}</td>
+                    <td>{{ q.get('selected_answer', '---') }}</td>
+                    <td>{{ q.get('correct_answer', '---') }}</td>
+                    <td>
+                        {% if q.get('selected_answer') == q.get('correct_answer') %}
+                            ✅
+                        {% else %}
+                            ❌
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br>
+    <a href="{{ url_for('download_results') }}">Eredmények letöltése CSV-ben</a>
+</body>
+</html>

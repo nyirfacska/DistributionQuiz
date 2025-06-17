@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Teszt – Kezdőlap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function validateForm(event) {
+            const gdprCheckbox = document.getElementById('gdpr');
+            if (!gdprCheckbox.checked) {
+                alert("A teszt kitöltéséhez el kell fogadnod az adatkezelési tájékoztatót.");
+                event.preventDefault();
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Adaptív Teszt – Belépés</h2>
+    <form method="post" onsubmit="validateForm(event)">
+        <label>
+            <input type="checkbox" name="gdpr" id="gdpr" required>
+            Elfogadom az <a href="#">adatkezelési tájékoztatót (GDPR)</a>
+        </label><br><br>
+
+        <label>Neptun kód:
+            <input type="text" name="neptun" required>
+        </label><br><br>
+
+        <label>Programozási nyelv:
+            <select name="language" required>
+                {% for lang in languages %}
+                    <option value="{{ lang }}">{{ lang }}</option>
+                {% endfor %}
+            </select>
+        </label><br><br>
+
+        <label>Nehézségi szint:
+            <select name="level" required>
+                {% for lvl in levels %}
+                    <option value="{{ lvl }}">{{ lvl }}</option>
+                {% endfor %}
+            </select>
+        </label><br><br>
+
+        <label>Eloszlás:
+            <select name="distribution" required>
+                <option value="uniform">Uniform</option>
+                <option value="normal">Normal</option>
+                <option value="binomial">Binomial</option>
+                <option value="exponential">Exponential</option>
+                <option value="poisson">Poisson</option>
+            </select>
+        </label><br><br>
+
+        <button type="submit">Teszt indítása</button>
+    </form>
+</body>
+</html>

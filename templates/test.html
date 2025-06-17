@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Teszt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h2>Teszt kérdés</h2>
+    <form method="post">
+        <p>{{ question['Question'] }}</p>
+        <label><input type="radio" name="answer" value="{{ question['Option1'] }}" required> {{ question['Option1'] }}</label><br>
+        <label><input type="radio" name="answer" value="{{ question['Option2'] }}"> {{ question['Option2'] }}</label><br>
+        <label><input type="radio" name="answer" value="{{ question['Option3'] }}"> {{ question['Option3'] }}</label><br>
+        <label><input type="radio" name="answer" value="{{ question['Option4'] }}"> {{ question['Option4'] }}</label><br><br>
+        <button type="submit">Tovább</button>
+    </form>
+    <p>Kérdés {{ progress }} / {{ total }}</p>
+    {% set level_text = 'Könnyű' if question['Difficulty']|int <= 2 else 'Közepes' if question['Difficulty']|int <= 4 else 'Haladó' %}
+    <p><strong>Nehézségi szint:</strong> {{ level_text }} ({{ question['Difficulty'] }})</p>
+    <div class="statistics">
+      <h3>Statisztika</h3>
+      <ul>
+        <li>Helyes válaszok eddig: {{ correct_so_far }}</li>
+        <li>Átlagos válaszidő: {{ avg_time_so_far }} másodperc</li>
+        <li>Előző kérdés nehézsége: {{ last_difficulty }}</li>
+      </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,501 @@
+﻿Language;Category;Level;Question;Option1;Option2;Option3;Option4;CorrectAnswer;Difficulty
+C#;Type;Advanced;Mi az int alapértelmezett értéke C#-ban?;0;;-1;Egyik sem;0;1
+C#;Type;Advanced;Mi a különbség az int és a double között C#-ban?;A double lebegõpontos számokat tárol;Az int csak pozitív számokat tárol;Nincs különbség;Mindkettõ lebegõpontos;A double lebegõpontos számokat tárol;1
+C#;Type;Advanced;Mit jelent a boxing C#-ban?;Értéktípus átalakítása referenciatípussá;Referenciatípus átalakítása értéktípussá;Objektum inicializálása;Egyik sem;Értéktípus átalakítása referenciatípussá;1
+C#;Type;Advanced;Mit jelent az explicit konverzió C#-ban?;Kézi konverzió típusok között;Automatikus konverzió típusok között;Csak lebegõpontos típusokra vonatkozik;Nem használható C#-ban;Kézi konverzió típusok között;1
+C#;Loop;Advanced;Hogyan definiálható végtelen ciklus C#-ban?;while(true);"for(;;)";Mindkettõ;Egyik sem;while(true);1
+C#;Loop;Advanced;Hogyan iterálhatsz egy 2D tömbön egy ciklus segítségével?;Két beágyazott ciklus használatával;Egy egyszerû for ciklussal;while ciklussal;Egyik sem;Két beágyazott ciklus használatával;1
+C#;Loop;Advanced;Mit jelent a nested loop C#-ban?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;1
+C#;Loop;Advanced;Hogyan iterálhatsz egy jagged array-en C#-ban?;Két beágyazott ciklus használatával;Egy egyszerû for ciklussal;Csak foreach ciklussal;Csak while ciklussal;Két beágyazott ciklus használatával;1
+C#;OOP;Advanced;Mi az alapértelmezett viselkedés a metódusok felüldefiniálásánál (override)?;A metódus viselkedése változik az alosztályban;Az eredeti metódus felülíródik;Nem lehet felüldefiniálni;Egyik sem;A metódus viselkedése változik az alosztályban;1
+C#;OOP;Advanced;Mit jelent az abstract kulcsszó egy osztályban?;Az osztály nem példányosítható;Az osztály minden metódusa implementált;Az osztály privát;Egyik sem;Az osztály nem példányosítható;1
+C#;OOP;Advanced;Mi a polimorfizmus C#-ban?;Ugyanaz a metódus különbözõen viselkedik;Több osztály deklarálása;Több objektum létrehozása;Egyik sem;Ugyanaz a metódus különbözõen viselkedik;2
+C#;OOP;Advanced;Mi az interfész C#-ban?;Egy szerzõdés az osztályok számára;Egy osztály típusa;Egy statikus metódus;Egyik sem;Egy szerzõdés az osztályok számára;2
+C#;OOP;Advanced;Mi az alapértelmezett viselkedés a metódusok felüldefiniálásánál (override)?;A metódus viselkedése változik az alosztályban;Az eredeti metódus felülíródik;Nem lehet felüldefiniálni;Egyik sem;A metódus viselkedése változik az alosztályban;2
+C#;OOP;Advanced;Mit jelent az abstract kulcsszó egy osztályban?;Az osztály nem példányosítható;Az osztály minden metódusa implementált;Az osztály privát;Egyik sem;Az osztály nem példányosítható;2
+C#;OOP;Advanced;Mi a különbség egy absztrakt osztály és egy interfész között?;Egy absztrakt osztály implementációkat is tartalmazhat;Egy interfész lehet privát;Mindkettõ csak metódusokat tartalmaz;Egyik sem;Egy absztrakt osztály implementációkat is tartalmazhat;2
+C#;Methods;Advanced;Mi a visszatérési típusa egy metódusnak, amely nem ad vissza értéket?;void;;empty;Egyik sem;void;2
+C#;Methods;Advanced;Hogyan definiálnál egy default paraméterértéket egy metódusban?;Az alapértelmezett értéket megadva a paraméter mellett;A metódus végén;Egyik sem;Csak statikus metódusokban lehet;Az alapértelmezett értéket megadva a paraméter mellett;2
+C#;Methods;Advanced;Hogyan definiálhatod a metódus default értékét?;A paraméter deklarációjánál;A metódus törzsében;Csak a metódus végén;Egyik sem;A paraméter deklarációjánál;2
+C#;Methods;Advanced;Mi a kimenete egy void metódusnak?;Nem ad vissza értéket;null-t ad vissza;Hibát dob;Egyik sem;Nem ad vissza értéket;2
+C#;Methods;Advanced;Milyen típusú metódusok lehetnek statikusak?;Bármilyen, ami nem függ példánytól;Csak public metódusok;Csak private metódusok;Egyik sem;Bármilyen, ami nem függ példánytól;2
+C#;Methods;Advanced;Hogyan definiálhatod a metódus default értékét?;A paraméter deklarációjánál;A metódus törzsében;Csak a metódus végén;Egyik sem;A paraméter deklarációjánál;2
+C#;Methods;Advanced;Mi a kimenete egy void metódusnak?;Nem ad vissza értéket;null-t ad vissza;Hibát dob;Egyik sem;Nem ad vissza értéket;2
+C#;Methods;Advanced;Milyen típusú metódusok lehetnek statikusak?;Bármilyen, ami nem függ példánytól;Csak public metódusok;Csak private metódusok;Egyik sem;Bármilyen, ami nem függ példánytól;2
+C#;Methods;Advanced;Hogyan térsz vissza egy értékkel metódusból?;A return kulcsszóval;A break kulcsszóval;A continue kulcsszóval;Egyik sem;A return kulcsszóval;2
+C#;DataStructures;Advanced;Melyik gyûjtemény támogatja az indexelést?;List;Dictionary;HashSet;Queue;List;2
+C#;DataStructures;Advanced;Melyik gyûjtemény ideális sorrend nélküli elemekhez?;HashSet;List;Queue;Array;HashSet;2
+C#;DataStructures;Advanced;Mi a stack viselkedése?;LIFO (Last In, First Out);FIFO (First In, First Out);Véletlenszerû hozzáférés;Egyik sem;LIFO (Last In, First Out);2
+C#;DataStructures;Advanced;Mi a verem (stack) fõ jellemzõje C#-ban?;LIFO (Last In, First Out);FIFO (First In, First Out);Rendezés;Egyik sem;LIFO (Last In, First Out);2
+C#;DataStructures;Advanced;Melyik gyûjtemény a legjobb duplikált elemek elkerülésére?;HashSet;List;Array;Queue;HashSet;2
+C#;DataStructures;Advanced;Melyik gyûjtemény ideális sorrend nélküli elemekhez?;HashSet;List;Queue;Array;HashSet;2
+C#;DataStructures;Advanced;Mi a stack viselkedése?;LIFO (Last In, First Out);FIFO (First In, First Out);Véletlenszerû hozzáférés;Egyik sem;LIFO (Last In, First Out);2
+Java;Type;Advanced;Hogyan definiálható egy konstans Java-ban?;final kulcsszóval;const kulcsszóval;static kulcsszóval;constant kulcsszóval;final kulcsszóval;2
+Java;Type;Advanced;Hogyan jelöljük a lebegõpontos számot Java-ban?;float vagy double;int vagy long;short vagy byte;char vagy String;float vagy double;2
+Java;Type;Advanced;Hogyan hozhatsz létre tömböt Java-ban?;new kulcsszóval;create kulcsszóval;array kulcsszóval;make kulcsszóval;new kulcsszóval;2
+Java;Type;Advanced;Melyik típus képviseli a karakterláncot Java-ban?;String;char;text;Array;String;2
+Java;Type;Advanced;Hogyan definiálható egy konstans Java-ban?;final kulcsszóval;const kulcsszóval;static kulcsszóval;constant kulcsszóval;final kulcsszóval;2
+Java;Type;Advanced;Mi az alapértelmezett értéke egy boolean változónak Java-ban?;false;true;;Nincs alapértelmezett értéke;false;2
+Java;Type;Advanced;Mit jelent a char típus Java-ban?;Egy karaktert tárol;Egy sztringet tárol;Egy számot tárol;Egyik sem;Egy karaktert tárol;2
+Java;Loop;Advanced;Mit csinál a continue utasítás Java-ban?;Átugrik a következõ iterációra;Befejezi a ciklust;Kilép a metódusból;Egyik sem;Átugrik a következõ iterációra;2
+Java;Loop;Advanced;Hogyan iterálhatsz egy kollekción keresztül Java-ban?;for-each;while;stream;Egyik sem;for-each;2
+Java;Loop;Advanced;Hogyan lehet kilépni egy több szintû ciklusból Java-ban?;Címkézett break utasítással;Egyszerû break-kel;continue utasítással;Egyik sem;Címkézett break utasítással;2
+Java;Loop;Advanced;Hogyan kezdhetsz új iterációt egy Java ciklusban?;continue;break;return;switch;continue;2
+Java;Loop;Advanced;Hogyan iterálhatsz egy kollekción keresztül Java-ban?;for-each;while;stream;Egyik sem;for-each;2
+Java;Loop;Advanced;Hogyan lehet kilépni egy több szintû ciklusból Java-ban?;Címkézett break utasítással;Egyszerû break-kel;continue utasítással;Egyik sem;Címkézett break utasítással;2
+Java;Loop;Advanced;Melyik Java ciklus alkalmas fix számú iterációra?;for;while;foreach;do-while;for;2
+Java;Loop;Advanced;Hogyan definiálsz végtelen ciklust Java-ban?;while(true);"for(;;)";Mindkettõ;Egyik sem;Mindkettõ;2
+Java;OOP;Advanced;Hogyan hívod meg a szuperosztály konstruktorát?;super() hívásával;this() hívásával;base() hívásával;Egyik sem;super() hívásával;2
+Java;OOP;Advanced;Hogyan definiálsz egy absztrakt metódust Java-ban?;Az abstract kulcsszóval;A static kulcsszóval;A private kulcsszóval;Egyik sem;Az abstract kulcsszóval;2
+Java;OOP;Advanced;Mi az enkapszuláció Java-ban?;Az adatok és metódusok elrejtése;Metódusok és tulajdonságok egyesítése;Osztályok öröklése;Polimorfizmus;Az adatok és metódusok elrejtése;2
+Java;OOP;Advanced;Mit jelent a default access modifier Java-ban?;Package-private;Public;Private;Protected;Package-private;2
+Java;OOP;Advanced;Mi az enkapszuláció Java-ban?;Az adatok és metódusok elrejtése;Metódusok és tulajdonságok egyesítése;Osztályok öröklése;Polimorfizmus;Az adatok és metódusok elrejtése;2
+Java;Methods;Advanced;Mi a különbség a metódus túlterhelése (overloading) és felüldefiniálása (overriding) között?;A túlterhelés különbözõ paramétereket használ;A felüldefiniálás más metódusnevet igényel;Nincs különbség;Egyik sem;A túlterhelés különbözõ paramétereket használ;2
+Java;Methods;Advanced;Mi történik, ha egy metódus hibát dob Java-ban?;Try-catch blokkban kezelheted;A program leáll;A hiba figyelmen kívül marad;Egyik sem;Try-catch blokkban kezelheted;2
+Java;DataStructures;Advanced;Hogyan iterálhatsz egy listán Java-ban?;Iterator használatával;while ciklussal;if utasítással;Egyik sem;Iterator használatával;2
+Java;DataStructures;Advanced;Melyik Java gyûjtemény nem engedélyez duplikátumokat?;HashSet;ArrayList;LinkedList;Queue;HashSet;2
+Java;DataStructures;Advanced;Mi a stack viselkedése Java-ban?;LIFO (Last In, First Out);FIFO (First In, First Out);Véletlenszerû hozzáférés;Egyik sem;LIFO (Last In, First Out);2
+Java;DataStructures;Advanced;Melyik Java osztály használható prioritási sorrendhez?;PriorityQueue;HashMap;HashSet;Vector;PriorityQueue;2
+Java;DataStructures;Advanced;Melyik Java gyûjtemény garantálja az elemek sorrendjét?;ArrayList;HashMap;HashSet;PriorityQueue;ArrayList;2
+Java;DataStructures;Advanced;Mi a stack viselkedése Java-ban?;LIFO (Last In, First Out);FIFO (First In, First Out);Véletlenszerû hozzáférés;Egyik sem;LIFO (Last In, First Out);2
+Javascript;Type;Advanced;Mi a különbség a 'let' és a 'var' között?;'let' blokkszintû, 'var' függvényszintû;'let' csak egyszer használható;'var' nem inicializálható;Egyik sem;'let' blokkszintû, 'var' függvényszintû;3
+Javascript;Type;Advanced;Hogyan hozhatsz létre objektumot JavaScript-ben?;A '{}' szintaxissal;A 'new object()' szintaxissal;Mindkettõ;Egyik sem;A '{}' szintaxissal;3
+Javascript;Type;Advanced;Mit jelent az undefined érték JavaScript-ben?;Egy változót deklaráltak, de nem inicializálták;Egy változót inicializáltak, de null értékû;Hibát jelent;Egyik sem;Egy változót deklaráltak, de nem inicializálták;3
+Javascript;Type;Advanced;Hogyan hozhatsz létre objektumot JavaScript-ben?;A '{}' szintaxissal;A 'new object()' szintaxissal;Mindkettõ;Egyik sem;A '{}' szintaxissal;3
+Javascript;Type;Advanced;Melyik operátor teszteli az érték és a típus azonosságát?;===;==;=;!==;===;3
+Javascript;Type;Advanced;Hogyan hozhatsz létre objektumot JavaScript-ben?;A '{}' szintaxissal;A 'new object()' szintaxissal;Mindkettõ;Egyik sem;A '{}' szintaxissal;3
+Javascript;Loop;Advanced;Hogyan definiálhatsz végtelen ciklust JavaScript-ben?;while(true);"for(;;)";Mindkettõ;Egyik sem;while(true);3
+Javascript;Loop;Advanced;Melyik utasítás használható a ciklus megszakítására?;break;continue;return;stop;break;3
+Javascript;Loop;Advanced;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;3
+Javascript;Loop;Advanced;Melyik utasítás használható a ciklus megszakítására?;break;continue;return;stop;break;3
+Javascript;Loop;Advanced;Hogyan iterálhatsz egy tömbön JavaScript-ben?;for...of;while;if;do-while;for...of;3
+Javascript;Loop;Advanced;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;3
+Javascript;Loop;Advanced;Hogyan iterálhatsz egy tömbön JavaScript-ben?;for...of;while;if;do-while;for...of;3
+Javascript;OOP;Advanced;Mit jelent az osztály JavaScript-ben?;Egy sablon objektumok létrehozásához;Egy változó típus;Egy funkció típusa;Egyik sem;Egy sablon objektumok létrehozásához;3
+Javascript;OOP;Advanced;Mit jelent a constructor metódus?;Egy osztály inicializáló metódusa;Egy statikus metódus;Egy privát metódus;Egyik sem;Egy osztály inicializáló metódusa;3
+Javascript;OOP;Advanced;Mit jelent az osztály JavaScript-ben?;Egy sablon objektumok létrehozásához;Egy változó típus;Egy funkció típusa;Egyik sem;Egy sablon objektumok létrehozásához;3
+Javascript;OOP;Advanced;Mit jelent az osztály JavaScript-ben?;Egy sablon objektumok létrehozásához;Egy változó típus;Egy funkció típusa;Egyik sem;Egy sablon objektumok létrehozásához;3
+Javascript;Methods;Advanced;Hogyan definiálsz egy nyílfüggvényt (arrow function)?;() => {};function() {};=> function();function => {};() => {};3
+Javascript;Methods;Advanced;Hogyan biztosítod, hogy egy függvény mindig ugyanazt az értéket adja vissza?;Tisztán funkcionális (pure function);Statikus metódussal;Privát változóval;Egyik sem;Tisztán funkcionális (pure function);3
+Javascript;DataStructures;Advanced;Melyik JavaScript adatszerkezet garantálja a sorrendet?;Array;Set;Object;Map;Array;3
+Javascript;DataStructures;Advanced;Melyik JavaScript adatszerkezet garantálja a sorrendet?;Array;Set;Object;Map;Array;3
+Javascript;DataStructures;Advanced;Mit jelent a stack viselkedése?;LIFO (Last In, First Out);FIFO (First In, First Out);Rendezés;Egyik sem;LIFO (Last In, First Out);3
+Javascript;DataStructures;Advanced;Melyik JavaScript adatszerkezet garantálja a sorrendet?;Array;Set;Object;Map;Array;3
+Javascript;DataStructures;Advanced;Melyik adatszerkezet nem engedélyez duplikált elemeket?;Set;Array;Map;Object;Set;3
+Javascript;DataStructures;Advanced;Melyik JavaScript adatszerkezet garantálja a sorrendet?;Array;Set;Object;Map;Array;3
+Javascript;DataStructures;Advanced;Mit jelent a stack viselkedése?;LIFO (Last In, First Out);FIFO (First In, First Out);Rendezés;Egyik sem;LIFO (Last In, First Out);3
+Python;Type;Advanced; Mi a True típusa Pythonban?; int; float; str; bool; bool;0
+Python;Type;Advanced; Mi a következõ  kód kimenete? isinstance(3.14, int); True; False; Error; None; False;0
+Python;Type;Advanced; Mi a különbség a list és a tuple között Pythonban?;A lista módosítható, a tuple nem;A tuple módosítható, a lista nem;Mindkett? módosítható;Egyik sem módosítható;A lista módosítható, a tuple nem;0
+Python;Type;Advanced;" Mi a következõ  kód kimenete? isinstance(""hello"", str)"; True; False; Error; None; True;0
+Python;Loop;Advanced; Hogyan járod be egy lista elemeit Pythonban?; for item in list:; for item of list:; foreach item in list:; while item in list:; for item in list:;0
+Python;Loop;Advanced; Hogyan iterálsz egy szótár kulcsain Pythonban?; for key in dict:; for key in dict.keys():;for key, value in dict.items():; for key in dict.values():; for key in dict.keys():;0
+Python;Loop;Advanced; Hogyan iterálsz egy tuple elemein Pythonban?; for item in tuple:; for item of tuple:; for item from tuple:; for item through tuple:; for item in tuple:;0
+Python;Loop;Advanced; Hogyan iterálsz egy lista elemein Pythonban?; for item in list:; for item of list:; for item from list:; for item through list:; for item in list:;0
+Python;OOP;Advanced; Hogyan hívod meg egy szül? osztály metódusát Pythonban?; super().method(); parent().method(); base().method(); superclass().method(); super().method();0
+Python;OOP;Advanced; Mi a különbség az osztály és a példány változó között Pythonban?;Az osztály változó az összes példány számára közös;Az osztály változó csak az egyik példány számára elérhet?;Az osztály változó csak olvasható;Az osztály változó nem módosítható;Az osztály változó az összes példány számára közös;0
+Python;OOP;Advanced; Mi a következõ  kód kimenete? class A: def __init__(self): self.x = 1 class B(A): def __init__(self): super().__init__() self.y = 2 b = B() print(b.x, b.y); 1 2; 1 1; 2 2; Error; 1 2;1
+Python;OOP;Advanced; Mi a különbség az osztály és a példány metódus között Pythonban?;Az osztály metódus az összes példány számára elérhet?;Az osztály metódus csak egy példány számára elérhet?;Az osztály metódus csak olvasható;Az osztály metódus nem módosítható;Az osztály metódus az összes példány számára elérhet?;1
+Python;Methods;Advanced; Mi az a lambda függvény Pythonban?; Egy kicsi névtelen függvény; Egy nagy névvel rendelkez? függvény; Egy metódus egy osztályban; Egy függvény több visszatérési értékkel; Egy kicsi névtelen függvény;1
+Python;Methods;Advanced; Mi a különbség a metódus és a függvény között Pythonban?;A metódus egy osztályban van, a függvény pedig nem;A metódus és a függvény ugyanaz;A metódus globális, a függvény pedig helyi;A metódus olvasható, a függvény pedig írható;A metódus egy osztályban van, a függvény pedig nem;1
+Python;Methods;Advanced; Mi a következõ  kód kimenete? def subtract(a, b=1): return a - b print(subtract(5));4;5; Error; None;4;1
+Python;Methods;Advanced; Mi a következõ  kód kimenete? def multiply(a, b=2): return a * b print(multiply(3));6;3; Error; None;6;1
+Python;DataStructures;Advanced; Mi a következõ  kód kimenete? my_list = [1, 2, 3] my_list.append(4) print(my_list);[1, 2, 3];[1, 2, 3, 4];[1, 2, 3, 4, 5];[1, 2, 3, 5];[1, 2, 3, 4];1
+Python;DataStructures;Advanced; Hogyan egyesítesz két listát Pythonban?; list1 + list2; list1 & list2; list1 | list2; list1.add(list2); list1 + list2;1
+Python;DataStructures;Advanced; Hogyan egyesetesz két szótárt Pythonban?; dict1.update(dict2); dict1 + dict2; dict1 & dict2; dict1 | dict2; dict1.update(dict2);1
+Python;DataStructures;Advanced; Hogyan távolítasz el egy elemet egy szótárból Pythonban?; del my_dict['a']; remove my_dict['a']; my_dict.pop('a'); discard my_dict['a']; del my_dict['a'];1
+Sql;Type;Advanced;Melyik adattípus használható dátumok tárolására?;DATE;INT;VARCHAR;TEXT;DATE;3
+Sql;Type;Advanced;Mit jelent a NULL érték SQL-ben?;Egy ismeretlen vagy hiányzó értéket;Egy nulla számot;Egy üres stringet;Egyik sem;Egy ismeretlen vagy hiányzó értéket;3
+Sql;Type;Advanced;Mit tárol a BOOLEAN adattípus?;Igaz/hamis értékeket;Egész számokat;Dátumokat;Szövegeket;Igaz/hamis értékeket;3
+Sql;Type;Advanced;Melyik adattípus használható dátumok tárolására?;DATE;INT;VARCHAR;TEXT;DATE;3
+Sql;Type;Advanced;Mit jelent a DEFAULT érték SQL-ben?;Egy alapértelmezett értéket ad meg;Egy adattípus nevét adja meg;Egy táblanevet ad meg;Egyik sem;Egy alapértelmezett értéket ad meg;3
+Sql;Type;Advanced;Melyik adattípus tárolja a lebegõpontos számokat?;FLOAT;INT;CHAR;BOOLEAN;FLOAT;3
+Sql;Type;Advanced;Mit tárol a BOOLEAN adattípus?;Igaz/hamis értékeket;Egész számokat;Dátumokat;Szövegeket;Igaz/hamis értékeket;3
+Sql;Type;Advanced;Mit jelent a DECIMAL adattípus SQL-ben?;Pontos tizedesértékek tárolása;Csak egész számok tárolása;Egy szöveges érték tárolása;Egyik sem;Pontos tizedesértékek tárolása;3
+Sql;Type;Advanced;Melyik adattípus tárolja a lebegõpontos számokat?;FLOAT;INT;CHAR;BOOLEAN;FLOAT;3
+Sql;Type;Advanced;Melyik adattípus használható nagy szövegek tárolására?;TEXT;INT;FLOAT;BOOLEAN;TEXT;3
+Sql;Query;Advanced;Mit csinál a WHERE klauzula SQL-ben?;Szûri a sorokat a megadott feltétel alapján;Összegzi az adatokat;Csoportosítja az adatokat;Rendezést végez;Szûri a sorokat a megadott feltétel alapján;4
+Sql;Query;Advanced;Mi a különbség az INNER JOIN és a LEFT JOIN között?;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;Nincs különbség;A LEFT JOIN csak a közös sorokat adja vissza;Az INNER JOIN az összes sort visszaadja;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;4
+Sql;Query;Advanced;Mire használható a GROUP BY klauzula SQL-ben?;Sorok csoportosítására;Táblák törlésére;Táblák összekapcsolására;Egyik sem;Sorok csoportosítására;4
+Sql;Query;Advanced;Hogyan írnál egy SQL lekérdezést, amely az 'employees' tábla összes sorát megjeleníti?;"SELECT * FROM employees;";"SHOW * FROM employees;";"DISPLAY employees;";"SELECT ALL FROM employees;";"SELECT * FROM employees;";4
+Sql;Query;Advanced;Mi a különbség az INNER JOIN és a LEFT JOIN között?;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;Nincs különbség;A LEFT JOIN csak a közös sorokat adja vissza;Az INNER JOIN az összes sort visszaadja;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;4
+Sql;Query;Advanced;Hogyan írnál egy SQL lekérdezést, amely az 'employees' tábla összes sorát megjeleníti?;"SELECT * FROM employees;";"SHOW * FROM employees;";"DISPLAY employees;";"SELECT ALL FROM employees;";"SELECT * FROM employees;";4
+Sql;DDL;Advanced;Hogyan nevezel át egy táblát SQL-ben?;"ALTER TABLE tábla_neve RENAME TO új_név;";"CHANGE TABLE tábla_neve TO új_név;";"RENAME TABLE új_név;";"UPDATE TABLE tábla_neve;";"ALTER TABLE tábla_neve RENAME TO új_név;";4
+Sql;DDL;Advanced;Mire használható a CREATE utasítás?;Új tábla létrehozására;Adatok frissítésére;Adatok törlésére;Táblák rendezésére;Új tábla létrehozására;4
+Sql;DDL;Advanced;Hogyan törölsz egy táblát SQL-ben?;"DROP TABLE tábla_neve;";"DELETE TABLE tábla_neve;";"REMOVE TABLE tábla_neve;";"CLEAR TABLE tábla_neve;";"DROP TABLE tábla_neve;";4
+Sql;DDL;Advanced;Mit jelent az ALTER utasítás?;Egy meglévõ tábla módosítása;Egy tábla törlése;Egy új adatbázis létrehozása;Adatok beszúrása;Egy meglévõ tábla módosítása;4
+Sql;DML;Advanced;Hogyan adsz hozzá új adatokat egy táblához SQL-ben?;"INSERT INTO tábla_neve;";"ADD ROW tábla_neve;";"UPDATE tábla_neve;";"CREATE ROW tábla_neve;";"INSERT INTO tábla_neve;";4
+Sql;DML;Advanced;Hogyan törölheted az összes sort egy táblából, de megõrizheted a szerkezetét?;"TRUNCATE TABLE tábla_neve;";"DELETE TABLE tábla_neve;";"REMOVE TABLE tábla_neve;";"CLEAR TABLE tábla_neve;";"TRUNCATE TABLE tábla_neve;";4
+Sql;DML;Advanced;Hogyan törölsz adatokat SQL-ben?;"DELETE FROM tábla_neve;";"REMOVE ROW tábla_neve;";"CLEAR ROWS tábla_neve;";"TRUNCATE tábla_neve;";"DELETE FROM tábla_neve;";4
+Sql;DML;Advanced;Mit jelent az UPSERT SQL-ben?;Adatok beszúrása vagy frissítése;Adatok törlése;Adatok másolása;Adatok átmásolása másik táblába;Adatok beszúrása vagy frissítése;4
+Sql;DML;Advanced;Mit jelent az UPDATE utasítás?;Adatok frissítése egy táblában;Adatok törlése;Új oszlopok hozzáadása;Táblák törlése;Adatok frissítése egy táblában;4
+Sql;DML;Advanced;Hogyan számolhatod meg a táblában lévõ sorokat?;"SELECT COUNT(*) FROM tábla_neve;";"COUNT ROWS tábla_neve;";"CALCULATE ROWS tábla_neve;";"SUM ROWS tábla_neve;";"SELECT COUNT(*) FROM tábla_neve;";4
+Sql;DML;Advanced;Hogyan adsz hozzá új adatokat egy táblához SQL-ben?;"INSERT INTO tábla_neve;";"ADD ROW tábla_neve;";"UPDATE tábla_neve;";"CREATE ROW tábla_neve;";"INSERT INTO tábla_neve;";4
+Sql;DML;Advanced;Hogyan számolhatod meg a táblában lévõ sorokat?;"SELECT COUNT(*) FROM tábla_neve;";"COUNT ROWS tábla_neve;";"CALCULATE ROWS tábla_neve;";"SUM ROWS tábla_neve;";"SELECT COUNT(*) FROM tábla_neve;";4
+Sql;Indexes;Advanced;Mire használhatók az indexek SQL-ben?;Lekérdezések gyorsítására;Táblák törlésére;Adatok másolására;Adatok rendezésére;Lekérdezések gyorsítására;4
+Sql;Indexes;Advanced;Hogyan hozhatsz létre egy indexet egy táblához?;"CREATE INDEX index_név ON tábla_neve (oszlop);";"ADD INDEX TO tábla_neve;";"NEW INDEX tábla_neve;";"CREATE ON INDEX tábla_neve;";"CREATE INDEX index_név ON tábla_neve (oszlop);";4
+Sql;Indexes;Advanced;Hogyan törölhetsz egy indexet SQL-ben?;"DROP INDEX index_név;";"DELETE INDEX index_név;";"REMOVE INDEX index_név;";"TRUNCATE INDEX index_név;";"DROP INDEX index_név;";4
+Sql;Indexes;Advanced;Milyen típusú indexek léteznek SQL-ben?;Primary, Unique, és Composite;Only Unique;Only Primary;Egyik sem;Primary, Unique, és Composite;4
+Sql;Indexes;Advanced;Hogyan törölhetsz egy indexet SQL-ben?;"DROP INDEX index_név;";"DELETE INDEX index_név;";"REMOVE INDEX index_név;";"TRUNCATE INDEX index_név;";"DROP INDEX index_név;";4
+Sql;Indexes;Advanced;Milyen típusú indexek léteznek SQL-ben?;Primary, Unique, és Composite;Only Unique;Only Primary;Egyik sem;Primary, Unique, és Composite;4
+Sql;Indexes;Advanced;Hogyan biztosítod, hogy egy oszlopban ne legyenek duplikált értékek?;UNIQUE kulcsszóval;INDEX kulcsszóval;PRIMARY kulcsszóval;FOREIGN kulcsszóval;UNIQUE kulcsszóval;4
+Sql;Indexes;Advanced;Hogyan hozhatsz létre egy indexet egy táblához?;"CREATE INDEX index_név ON tábla_neve (oszlop);";"ADD INDEX TO tábla_neve;";"NEW INDEX tábla_neve;";"CREATE ON INDEX tábla_neve;";"CREATE INDEX index_név ON tábla_neve (oszlop);";4
+Sql;Indexes;Advanced;Mire használhatók az indexek SQL-ben?;Lekérdezések gyorsítására;Táblák törlésére;Adatok másolására;Adatok rendezésére;Lekérdezések gyorsítására;4
+C#;Type;Beginner;Melyik C# típus használható logikai értékekhez?;bool;int;string;double;bool;1
+C#;Type;Beginner;Mi a különbség az értéktípusok és a referenciatípusok között C#-ban?;Értéktípusok a stacken tárolódnak, referenciatípusok a heapen;Nincs különbség;Mindkettõ a stacken tárolódik;Értéktípusok csak null értéket vehetnek fel;Értéktípusok a stacken tárolódnak, referenciatípusok a heapen;1
+C#;Type;Beginner;Hogyan jelöljük a null értéket elfogadó típust C#-ban?;Egy '?' operátor hozzáadásával;A 'nullable' kulcsszóval;A 'null' kulcsszóval;Egyik sem;Egy '?' operátor hozzáadásával;1
+C#;Type;Beginner;Mit jelent az unboxing C#-ban?;Referenciatípus átalakítása értéktípussá;Értéktípus átalakítása referenciatípussá;Tömb létrehozása;Egyik sem;Referenciatípus átalakítása értéktípussá;1
+C#;Type;Beginner;Mi a különbség a float és a double között C#-ban?;A double nagyobb pontosságú;Nincs különbség;A float nagyobb pontosságú;Mindkettõ ugyanazt jelenti;A double nagyobb pontosságú;1
+C#;Type;Beginner;Mi a különbség a Tuple és a ValueTuple között?;A ValueTuple olvashatóbb és hatékonyabb;Nincs különbség;A Tuple módosítható, a ValueTuple nem;A Tuple gyorsabb, mint a ValueTuple;A ValueTuple olvashatóbb és hatékonyabb;1
+C#;Type;Beginner;Hogyan definiálsz generikus osztályt C#-ban?;Az osztálynév után <T>-t használva;Az osztálynév után []-t használva;Az osztálynév után {}-t használva;Csak örökléssel definiálható generikus osztály;Az osztálynév után <T>-t használva;1
+C#;Loop;Beginner;Hogyan lehet kilépni egy több szintû ciklusból?;Címkézett 'break' utasítással;Egyszerû 'break'-kel;continue utasítással;Egyik sem;Címkézett 'break' utasítással;1
+C#;Loop;Beginner;Mi történik, ha egy végtelen ciklus nem tartalmaz 'break' utasítást?;A program végtelenül fut;A program leáll;A ciklus automatikusan befejezõdik;Hibát dob;A program végtelenül fut;1
+C#;OOP;Beginner;Mit csinál az 'override' kulcsszó C#-ban?;Alaposztály metódusait módosítja;Megakadályozza az öröklést;Új osztályt hoz létre;Egyik sem;Alaposztály metódusait módosítja;2
+C#;Methods;Beginner;Mi a delegate szerepe a metódusoknál?;Egy metódus referenciájának tárolása;Metódus futásának megszakítása;Metódus implementálása;Egyik sem;Egy metódus referenciájának tárolása;2
+C#;Methods;Beginner;Milyen metódusok lehetnek absztraktak?;Csak az osztály absztrakt metódusai;Bármilyen metódus;Csak public metódusok;Egyik sem;Csak az osztály absztrakt metódusai;2
+C#;DataStructures;Beginner;Hogyan iterálhatsz egy listán?;foreach ciklussal;while ciklussal;if utasítással;Egyik sem;foreach ciklussal;2
+C#;DataStructures;Beginner;Mi a sor (queue) használati esete?;FIFO adatfeldolgozás;LIFO adatfeldolgozás;Adatrendezés;Egyik sem;FIFO adatfeldolgozás;2
+C#;DataStructures;Beginner;Melyik C# gyûjtemény a legjobb kulcs-érték párokhoz?;Dictionary;List;Array;Queue;Dictionary;2
+Java;Type;Beginner;Mi az int alapértelmezett értéke Java-ban?;0;;-1;Egyik sem;0;2
+Java;Type;Beginner;Melyik típus képviseli a karakterláncot Java-ban?;String;char;text;Array;String;2
+Java;Type;Beginner;Melyik típus nem primitív Java-ban?;String;int;float;double;String;2
+Java;Type;Beginner;Mit jelent a boxing Java-ban?;Értéktípus átalakítása objektummá;Objektum lebontása;Tömb inicializálása;Egyik sem;Értéktípus átalakítása objektummá;2
+Java;Type;Beginner;Mi az int alapértelmezett értéke Java-ban?;0;;-1;Egyik sem;0;2
+Java;Type;Beginner;Melyik típus nem primitív Java-ban?;String;int;float;double;String;2
+Java;Loop;Beginner;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;2
+Java;Loop;Beginner;Hogyan kezdhetsz új iterációt egy Java ciklusban?;continue;break;return;switch;continue;2
+Java;Loop;Beginner;Mi a break utasítás célja a ciklusokban?;Kilépés a ciklusból;Újraindítja a ciklust;Megállítja a ciklust;Egyik sem;Kilépés a ciklusból;2
+Java;OOP;Beginner;Mi az enkapszuláció Java-ban?;Az adatok és metódusok elrejtése;Metódusok és tulajdonságok egyesítése;Osztályok öröklése;Polimorfizmus;Az adatok és metódusok elrejtése;2
+Java;OOP;Beginner;Mit jelent az abstract kulcsszó Java-ban?;Az osztály nem példányosítható;Az osztály privát;Az osztály minden metódusa implementált;Egyik sem;Az osztály nem példányosítható;2
+Java;OOP;Beginner;Mit jelent a final kulcsszó egy osztályon?;Az osztály nem örökölhetõ;Az osztály nem módosítható;Az osztály nem példányosítható;Egyik sem;Az osztály nem örökölhetõ;2
+Java;OOP;Beginner;Hogyan definiálsz egy absztrakt metódust Java-ban?;Az abstract kulcsszóval;A static kulcsszóval;A private kulcsszóval;Egyik sem;Az abstract kulcsszóval;2
+Java;OOP;Beginner;Mi az interfész Java-ban?;Egy szerzõdés az osztályok számára;Egy osztály típusa;Egy statikus metódus;Egyik sem;Egy szerzõdés az osztályok számára;2
+Java;Methods;Beginner;Hogyan deklarálsz statikus metódust Java-ban?;A static kulcsszóval;A final kulcsszóval;A const kulcsszóval;Egyik sem;A static kulcsszóval;2
+Java;Methods;Beginner;Mit jelent a void visszatérési típus Java-ban?;Nem ad vissza értéket;Null értéket ad vissza;Egyik sem;Hibát dob;Nem ad vissza értéket;2
+Java;Methods;Beginner;Mit jelent az args paraméter a main metódusban?;Parancssori argumentumok;Változó argumentumok;Konstansok;Egyik sem;Parancssori argumentumok;2
+Java;DataStructures;Beginner;Melyik Java gyûjtemény garantálja az elemek sorrendjét?;ArrayList;HashMap;HashSet;PriorityQueue;ArrayList;2
+Java;DataStructures;Beginner;Melyik Java gyûjtemény tárolja kulcs-érték párokat?;HashMap;ArrayList;LinkedList;Vector;HashMap;2
+Java;DataStructures;Beginner;Melyik Java gyûjtemény nem engedélyez duplikátumokat?;HashSet;ArrayList;LinkedList;Queue;HashSet;2
+Javascript;Type;Beginner;Hogyan hozol létre állandó változót JavaScript-ben?;A 'const' kulcsszóval;A 'let' kulcsszóval;A 'final' kulcsszóval;A 'static' kulcsszóval;A 'const' kulcsszóval;3
+Javascript;Type;Beginner;Mi a különbség a 'let' és a 'var' között?;'let' blokkszintû, 'var' függvényszintû;'let' csak egyszer használható;'var' nem inicializálható;Egyik sem;'let' blokkszintû, 'var' függvényszintû;3
+Javascript;Type;Beginner;Hogyan hozol létre állandó változót JavaScript-ben?;A 'const' kulcsszóval;A 'let' kulcsszóval;A 'final' kulcsszóval;A 'static' kulcsszóval;A 'const' kulcsszóval;3
+Javascript;Type;Beginner;Mit jelent a null érték JavaScript-ben?;Egy üres objektum;Egy nem inicializált objektum;Egy üres változó;Egyik sem;Egy üres objektum;3
+Javascript;Loop;Beginner;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;3
+Javascript;Loop;Beginner;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;3
+Javascript;Loop;Beginner;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;3
+Javascript;Loop;Beginner;Hogyan definiálhatsz végtelen ciklust JavaScript-ben?;while(true);"for(;;)";Mindkettõ;Egyik sem;while(true);3
+Javascript;OOP;Beginner;Mi a célja az öröklésnek JavaScript-ben?;Kód újrafelhasználása;Új osztály létrehozása;Osztályok másolása;Egyik sem;Kód újrafelhasználása;3
+Javascript;OOP;Beginner;Mit jelent a prototype lánc?;Egy mechanizmus az objektumok öröklésére;Egy metódus túlterhelésére;Egy új objektum inicializálására;Egyik sem;Egy mechanizmus az objektumok öröklésére;3
+Javascript;OOP;Beginner;Mit jelent a constructor metódus?;Egy osztály inicializáló metódusa;Egy statikus metódus;Egy privát metódus;Egyik sem;Egy osztály inicializáló metódusa;3
+Javascript;OOP;Beginner;Mit jelent az instanceof operátor JavaScript-ben?;Ellenõrzi, hogy egy objektum egy adott osztály példánya-e;Egy új osztály létrehozását;Egy objektum inicializálását;Egyik sem;Ellenõrzi, hogy egy objektum egy adott osztály példánya-e;3
+Javascript;OOP;Beginner;Mit jelent a constructor metódus?;Egy osztály inicializáló metódusa;Egy statikus metódus;Egy privát metódus;Egyik sem;Egy osztály inicializáló metódusa;3
+Javascript;OOP;Beginner;Mi a célja az öröklésnek JavaScript-ben?;Kód újrafelhasználása;Új osztály létrehozása;Osztályok másolása;Egyik sem;Kód újrafelhasználása;3
+Javascript;Methods;Beginner;Mit jelent a callback függvény?;Egy függvény, amelyet egy másik függvény argumentumként hív meg;Egy metódus, amely mindig true-t ad vissza;Egy statikus függvény;Egyik sem;Egy függvény, amelyet egy másik függvény argumentumként hív meg;3
+Javascript;Methods;Beginner;Hogyan hívsz meg egy metódust egy objektumban?;Az objektum neve és a metódus neve ponttal elválasztva;A metódus neve zárójel nélkül;A metódus neve zárójelekkel;Egyik sem;Az objektum neve és a metódus neve ponttal elválasztva;3
+Javascript;Methods;Beginner;Mit jelent a callback függvény?;Egy függvény, amelyet egy másik függvény argumentumként hív meg;Egy metódus, amely mindig true-t ad vissza;Egy statikus függvény;Egyik sem;Egy függvény, amelyet egy másik függvény argumentumként hív meg;3
+Javascript;Methods;Beginner;Hogyan biztosítod, hogy egy függvény mindig ugyanazt az értéket adja vissza?;Tisztán funkcionális (pure function);Statikus metódussal;Privát változóval;Egyik sem;Tisztán funkcionális (pure function);3
+Javascript;Methods;Beginner;Hogyan definiálsz egy nyílfüggvényt (arrow function)?;() => {};function() {};=> function();function => {};() => {};3
+Javascript;Methods;Beginner;Hogyan ellenõrzöd, hogy egy változó függvény-e?;typeof var === 'function';typeof var === 'object';var instanceof Function;Mindkettõ helyes;typeof var === 'function';3
+Javascript;Methods;Beginner;Mit csinál az apply metódus?;Egy függvényt meghív egy adott argumentumlistával;Egy függvényt lemásol;Egy új függvényt hoz létre;Egyik sem;Egy függvényt meghív egy adott argumentumlistával;3
+Javascript;DataStructures;Beginner;Mit jelent a stack viselkedése?;LIFO (Last In, First Out);FIFO (First In, First Out);Rendezés;Egyik sem;LIFO (Last In, First Out);3
+Javascript;DataStructures;Beginner;Melyik adatszerkezet nem engedélyez duplikált elemeket?;Set;Array;Map;Object;Set;3
+Javascript;DataStructures;Beginner;Hogyan számolod meg egy Map elemeit?;map.size;map.length;map.count();map.getSize();map.size;3
+Python;Type;Beginner; Mi a type(3) kimenete Pythonban?; int; float; str; list; int;0
+Python;Type;Beginner; Mi a 3.14 típusa Pythonban?; int; float; str; list; float;0
+Python;Type;Beginner; Mi a str(3.14) kimenete Pythonban?; '3.14'; '3'; '3,14'; 'három'; '3.14';0
+Python;Type;Beginner; Melyik a helyes szintaxis egy lista létrehozásához Pythonban?; my_list = [1, 2, 3];my_list = (1, 2, 3);my_list = {1, 2, 3};my_list = <1, 2, 3>;my_list = [1, 2, 3];0
+Python;Type;Beginner; Mi a következõ  kód kimenete? print(type(42)); <class 'int'>; <class 'str'>; <class 'float'>; <class 'bool'>; <class 'int'>;0
+Python;Type;Beginner;" Mi a következõ  kód kimenete? print(type(""Hello""))"; <class 'str'>; <class 'int'>; <class 'float'>; <class 'bool'>; <class 'str'>;0
+Python;Type;Beginner; Mi a következõ  kód kimenete? print(type(True)); <class 'bool'>; <class 'int'>; <class 'str'>; <class 'float'>; <class 'bool'>;0
+Python;Type;Beginner; Mi a következõ  kód kimenete? print(type([1, 2, 3])); <class 'list'>;<class 'tuple'>;<class 'set'>;<class 'dict'>;<class 'list'>;0
+Python;Loop;Beginner; Melyik ciklust használjuk egy sorozat bejárására Pythonban?; for; while; do-while; foreach; for;0
+Python;Loop;Beginner; Hogyan hozol létre egy végtelen ciklust Pythonban?; while True:; for True:; do-while True:; loop:; while True:;0
+Python;Loop;Beginner; Melyik kulcsszót használjuk egy ciklus megszakítására Pythonban?; break; continue; stop; exit; break;0
+Python;Loop;Beginner; Melyik kulcsszót használjuk egy ciklus következõ  iterációjára ugrásra Pythonban?; continue; break; pass; skip; continue;0
+Python;Loop;Beginner; Mi a következõ  kód kimenete? for i in range(2, , 5): print(i); 2 3 4; 2 3 4 5; 1 2 3 4; 3 4 5; 2 3 4;0
+Python;Loop;Beginner; Mi a következõ  kód kimenete? i = 0 while i < 4: print(i) i += 1; 0 1 2 3; 1 2 3 4; 0 1 2 3 4; 1 2 3; 0 1 2 3;0
+Python;Loop;Beginner; Mi a következõ  kód kimenete? for i in range(3): print(i); 0 1 2; 1 2 3; 0 1 2 3; 1 2; 0 1 2;0
+Python;Loop;Beginner; Mi a következõ  kód kimenete? i = 0 while i < 3: print(i) i += 1; 0 1 2; 1 2 3; 0 1 2 3; 1 2; 0 1 2;0
+Python;OOP;Beginner; Hogyan definiálsz egy osztályt Pythonban?; class MyClass:; def MyClass:; MyClass(); define class MyClass; class MyClass:;0
+Python;OOP;Beginner; Hogyan hozol létre egy osztálypéldányt Pythonban?; my_instance = MyClass(); my_instance = MyClass; my_instance = new MyClass(); my_instance = create MyClass(); my_instance = MyClass();0
+Python;OOP;Beginner; Mi a self kulcsszó Pythonban?; Az aktuális példány hivatkozása; Egy globális változó; Egy statikus metódus; Egy modul; Az aktuális példány hivatkozása;0
+Python;OOP;Beginner; Hogyan hozol létre egy privát változót Pythonban?; __my_var; my_var; _my_var; priv my_var; __my_var;0
+Python;OOP;Beginner; Mi a következõ  kód kimenete? class MyClass: pass obj = MyClass() print(type(obj)); <class '__main__.MyClass'>; <class 'type'>; <class 'object'>; <class 'MyClass'>; <class '__main__.MyClass'>;1
+Python;OOP;Beginner; Hogyan hozol létre egy osztályt Pythonban?; class MyClass:; def MyClass:; create MyClass:; osztály MyClass:; class MyClass:;1
+Python;OOP;Beginner; Mi a következõ  kód kimenete? class MyClass: def __init__(self): self.x = 10 obj = MyClass() print(obj.x);10;0; None; Error;10;1
+Python;OOP;Beginner; Hogyan hívsz meg egy osztály metódusát egy példányból Pythonban?; obj.method(); class.method(); method(obj); method(); obj.method();1
+Python;Methods;Beginner; Hogyan definiálsz egy metódust Pythonban?; def my_method(self):; method my_method(self):; function my_method(self):; define my_method(self):; def my_method(self):;1
+Python;Methods;Beginner; Hogyan hívsz meg egy metódust Pythonban?; my_method(); call my_method(); execute my_method(); run my_method(); my_method();1
+Python;Methods;Beginner; Mi a helyes szintaxis egy metódus visszatérési értékének meghatározásához Pythonban?; return value; return(value); value return; value; return value;1
+Python;Methods;Beginner; Hogyan határozol meg egy alapértelmezett paraméterértéket egy metódusban Pythonban?; def my_method(param=default):; def my_method(param: default); def my_method(param default); def my_method(default=param):; def my_method(param=default):;1
+Python;Methods;Beginner;" Mi a következõ  kód kimenete? def say_hello(name): print(""Hello "" + name) say_hello(""John"")"; Hello John; Hello, John; Hello + name; Error; Hello John;1
+Python;Methods;Beginner; Hogyan határozol meg egy metódust paraméterekkel Pythonban?;def method_name(param1, param2):;function method_name(param1, param2):;define method_name(param1, param2):;create method_name(param1, param2):;def method_name(param1, param2):;1
+Python;Methods;Beginner;" Mi a következõ  kód kimenete? def greet(): print(""Hello"") greet()"; Hello; Error; None; Hi; Hello;1
+Python;Methods;Beginner; Hogyan definiálsz egy metódust Pythonban?; def method_name():; function method_name():; define method_name():; create method_name():; def method_name():;1
+Python;DataStructures;Beginner; Melyik a következõ  adatszerkezetek közül módosítható Pythonban?; lista; tuple; string; int; lista;1
+Python;DataStructures;Beginner; Mi az a tuple Pythonban?; Egy változatlan elemek sorozata; Egy módosítható elemek sorozata; Egy kulcs-érték párok gy?jteménye; Egy függvény több visszatérési értékkel; Egy változatlan elemek sorozata;1
+Python;DataStructures;Beginner; Hogyan adsz hozzá egy elemet egy listához Pythonban?; my_list.append(element); my_list.add(element); my_list.insert(element); my_list.push(element); my_list.append(element);1
+Python;DataStructures;Beginner; Hogyan távolítasz el egy elemet egy listából Pythonban?; my_list.remove(element); my_list.delete(element); my_list.discard(element); my_list.pop(element); my_list.remove(element);1
+Python;DataStructures;Beginner; Mi a következõ  kód kimenete? my_list = [1, 2, 3] print(len(my_list));3;2;1;4;3;1
+Python;DataStructures;Beginner; Hogyan hozol létre egy üres szótárt Pythonban?; my_dict = {}; my_dict = []; my_dict = (); my_dict = <>; my_dict = {};1
+Python;DataStructures;Beginner; Mi a következõ  kód kimenete? my_dict = {'a': 1, 'b': 2} print(my_dict['a']);1; 'a';2; Error;1;1
+Python;DataStructures;Beginner; Hogyan adsz hozzá egy elemet egy szótárhoz Pythonban?; my_dict['c'] = 3;my_dict.add('c', 3);my_dict.insert('c', 3);my_dict.push('c', 3);my_dict['c'] = 3;1
+Sql;Type;Beginner;Melyik adattípus tárolja a lebegõpontos számokat?;FLOAT;INT;CHAR;BOOLEAN;FLOAT;3
+Sql;Type;Beginner;Mi a különbség a CHAR és a VARCHAR adattípusok között?;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;A VARCHAR fix hosszúságú, a CHAR változó hosszúságú;Mindkettõ fix hosszúságú;Mindkettõ változó hosszúságú;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;3
+Sql;Type;Beginner;Melyik adattípus tárolja a lebegõpontos számokat?;FLOAT;INT;CHAR;BOOLEAN;FLOAT;3
+Sql;Query;Beginner;Mire használható a SELECT utasítás?;Adatok lekérdezésére a táblákból;Új tábla létrehozására;Táblák törlésére;Egyik sem;Adatok lekérdezésére a táblákból;3
+Sql;Query;Beginner;Mire használható a JOIN SQL-ben?;Táblák összekapcsolására;Táblák törlésére;Táblák oszlopainak hozzáadására;Egyik sem;Táblák összekapcsolására;4
+Sql;Query;Beginner;Mire használható a JOIN SQL-ben?;Táblák összekapcsolására;Táblák törlésére;Táblák oszlopainak hozzáadására;Egyik sem;Táblák összekapcsolására;4
+Sql;Query;Beginner;Mire használható a SELECT utasítás?;Adatok lekérdezésére a táblákból;Új tábla létrehozására;Táblák törlésére;Egyik sem;Adatok lekérdezésére a táblákból;4
+Sql;Query;Beginner;Mit csinál a WHERE klauzula SQL-ben?;Szûri a sorokat a megadott feltétel alapján;Összegzi az adatokat;Csoportosítja az adatokat;Rendezést végez;Szûri a sorokat a megadott feltétel alapján;4
+Sql;Query;Beginner;Mire használható a JOIN SQL-ben?;Táblák összekapcsolására;Táblák törlésére;Táblák oszlopainak hozzáadására;Egyik sem;Táblák összekapcsolására;4
+Sql;DDL;Beginner;Mit jelent az ALTER utasítás?;Egy meglévõ tábla módosítása;Egy tábla törlése;Egy új adatbázis létrehozása;Adatok beszúrása;Egy meglévõ tábla módosítása;4
+Sql;DDL;Beginner;Mit jelent a CONSTRAINT SQL-ben?;Egy feltétel a tábla oszlopaihoz;Egy oszlop neve;Egy tábla neve;Egyik sem;Egy feltétel a tábla oszlopaihoz;4
+Sql;DDL;Beginner;Mire használható a CREATE utasítás?;Új tábla létrehozására;Adatok frissítésére;Adatok törlésére;Táblák rendezésére;Új tábla létrehozására;4
+Sql;DDL;Beginner;Hogyan törölsz egy táblát SQL-ben?;"DROP TABLE tábla_neve;";"DELETE TABLE tábla_neve;";"REMOVE TABLE tábla_neve;";"CLEAR TABLE tábla_neve;";"DROP TABLE tábla_neve;";4
+Sql;DDL;Beginner;Hogyan nevezel át egy táblát SQL-ben?;"ALTER TABLE tábla_neve RENAME TO új_név;";"CHANGE TABLE tábla_neve TO új_név;";"RENAME TABLE új_név;";"UPDATE TABLE tábla_neve;";"ALTER TABLE tábla_neve RENAME TO új_név;";4
+Sql;DML;Beginner;Hogyan adsz hozzá új adatokat egy táblához SQL-ben?;"INSERT INTO tábla_neve;";"ADD ROW tábla_neve;";"UPDATE tábla_neve;";"CREATE ROW tábla_neve;";"INSERT INTO tábla_neve;";4
+Sql;DML;Beginner;Mit jelent az UPSERT SQL-ben?;Adatok beszúrása vagy frissítése;Adatok törlése;Adatok másolása;Adatok átmásolása másik táblába;Adatok beszúrása vagy frissítése;4
+Sql;DML;Beginner;Mit jelent az UPSERT SQL-ben?;Adatok beszúrása vagy frissítése;Adatok törlése;Adatok másolása;Adatok átmásolása másik táblába;Adatok beszúrása vagy frissítése;4
+Sql;Indexes;Beginner;Hogyan biztosítod, hogy egy oszlopban ne legyenek duplikált értékek?;UNIQUE kulcsszóval;INDEX kulcsszóval;PRIMARY kulcsszóval;FOREIGN kulcsszóval;UNIQUE kulcsszóval;4
+Sql;Indexes;Beginner;Mire használhatók az indexek SQL-ben?;Lekérdezések gyorsítására;Táblák törlésére;Adatok másolására;Adatok rendezésére;Lekérdezések gyorsítására;4
+Sql;Indexes;Beginner;Hogyan törölhetsz egy indexet SQL-ben?;"DROP INDEX index_név;";"DELETE INDEX index_név;";"REMOVE INDEX index_név;";"TRUNCATE INDEX index_név;";"DROP INDEX index_név;";4
+Sql;Indexes;Beginner;Milyen típusú indexek léteznek SQL-ben?;Primary, Unique, és Composite;Only Unique;Only Primary;Egyik sem;Primary, Unique, és Composite;4
+C#;Type;Expert;Melyik típus képviseli a karakterláncot C#-ban?;string;char;text;array;string;1
+C#;Type;Expert;Mit csinál a 'var' kulcsszó C#-ban?;Implicit módon deklarál változót;Explicit módon deklarál változót;Konstans deklarálása;Tömb létrehozása;Implicit módon deklarál változót;1
+C#;Type;Expert;Hogyan definiálhatsz readonly változót C#-ban?;A 'readonly' kulcsszóval;A 'final' kulcsszóval;A 'const' kulcsszóval;Egyik sem;A 'readonly' kulcsszóval;1
+C#;Type;Expert;Melyik C# típus nem változtatható meg a létrehozása után?;string;int;float;list;string;1
+C#;Type;Expert;Hogyan definiálhatsz konstans stringet C#-ban?;A 'const' kulcsszóval;A 'readonly' kulcsszóval;A 'static' kulcsszóval;Egyik sem;A 'const' kulcsszóval;1
+C#;Type;Expert;Mit jelent a nullable value type C#-ban?;Egy típus, amely elfogadhat null értéket;Egy típus, amely csak null lehet;Egy típus, amely nem inicializálható;Egyik sem;Egy típus, amely elfogadhat null értéket;1
+C#;Loop;Expert;Melyik C# ciklus alkalmas fix számú iterációra?;for;while;foreach;do-while;for;1
+C#;Loop;Expert;Mit csinál a 'continue' utasítás C#-ban?;Átugrik a következõ  iterációra;Befejezi a ciklust;Kilép a metódusból;Egyik sem;Átugrik a következõ  iterációra;1
+C#;Loop;Expert;Hogyan lehet kilépni egy belsõ ciklusból C#-ban?;break;continue;exit;return;break;1
+C#;Loop;Expert;Mit jelent a nested loop C#-ban?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;1
+C#;Loop;Expert;Melyik ciklus nem garantálja, hogy legalább egyszer lefut?;while;do-while;for;foreach;while;1
+C#;Loop;Expert;Melyik ciklus nem garantálja, hogy legalább egyszer lefut?;while;do-while;for;foreach;while;1
+C#;Loop;Expert;Hogyan kezdheted újra a ciklust egy adott iteráció után?;continue kulcsszóval;break kulcsszóval;return kulcsszóval;switch kulcsszóval;continue kulcsszóval;1
+C#;OOP;Expert;Mit jelent a sealed kulcsszó egy osztályban?;Az osztály nem örökölhetõ tovább;Az osztály nem példányosítható;Az osztály csak statikus metódusokat tartalmazhat;Egyik sem;Az osztály nem örökölhetõ tovább;1
+C#;OOP;Expert;Mi a különbség az absztrakt és a statikus osztály között?;Az absztrakt osztály örökölhetõ, a statikus nem;Az absztrakt osztály nem tartalmazhat metódusokat;A statikus osztály példányosítható;Egyik sem;Az absztrakt osztály örökölhetõ, a statikus nem;1
+C#;OOP;Expert;Hogyan deklarálhatsz egy interfészt C#-ban?;Az interface kulcsszóval;Az implements kulcsszóval;Az abstract kulcsszóval;Egyik sem;Az interface kulcsszóval;1
+C#;OOP;Expert;Mit jelent a new kulcsszó egy metódusnál?;Árnyékol egy bázisosztály metódust;Új osztályt hoz létre;Egy új példányt inicializál;Egyik sem;Árnyékol egy bázisosztály metódust;1
+C#;OOP;Expert;Mi az enkapszuláció C#-ban?;Objektum egyes részeinek hozzáférésének korlátozása;Metódusok és tulajdonságok egyesítése;Osztályok öröklése;Metódusok túlterhelése;Objektum egyes részeinek hozzáférésének korlátozása;1
+C#;OOP;Expert;Hogyan deklarálhatsz egy interfészt C#-ban?;Az interface kulcsszóval;Az implements kulcsszóval;Az abstract kulcsszóval;Egyik sem;Az interface kulcsszóval;2
+C#;OOP;Expert;Mi a célja az öröklésnek?;Kód újrahasznosítása;Új metódusok létrehozása;Osztályok másolása;Egyik sem;Kód újrahasznosítása;2
+C#;Methods;Expert;Mi a metódus túlterhelése (overloading) C#-ban?;Ugyanaz a metódusnév, de különbözõ paraméterek;Több metódus ugyanazzal a paraméterrel;Metódusok különbözõ osztályokban;Egyik sem;Ugyanaz a metódusnév, de különbözõ paraméterek;2
+C#;Methods;Expert;Mi a 'params' kulcsszó célja C#-ban?;Lehetõvé teszi változó számú argumentumot;Meghatározza a paraméter típusát;Meghatározza a metódus típusát;Egyik sem;Lehetõvé teszi változó számú argumentumot;2
+C#;Methods;Expert;Mi az elérhetõségi köre egy privát metódusnak C#-ban?;Ugyanazon osztályon belül;Ugyanazon névtéren belül;Származtatott osztályokban;Egyik sem;Ugyanazon osztályon belül;2
+C#;Methods;Expert;Hogyan valósíthatsz meg több interfészt egy metódusban?;Az összes metódust implementálva;Csak egy interfész metódust implementálva;Nem szükséges implementáció;Egyik sem;Az összes metódust implementálva;2
+C#;Methods;Expert;Milyen metódust kell implementálnod egy interfész megvalósításához?;Az interfész összes metódusát;Csak a szükséges metódusokat;Egyiket sem;Csak a publikus metódusokat;Az interfész összes metódusát;2
+C#;Methods;Expert;Hogyan valósíthatsz meg több interfészt egy metódusban?;Az összes metódust implementálva;Csak egy interfész metódust implementálva;Nem szükséges implementáció;Egyik sem;Az összes metódust implementálva;2
+C#;Methods;Expert;Hogyan használhatók a lambdák metódusokban?;Anonim metódusként;Csak statikus metódusokban;Csak privát metódusokban;Egyik sem;Anonim metódusként;2
+C#;DataStructures;Expert;Melyik adatszerkezet garantálja az egyedi elemeket?;HashSet;List;Queue;Array;HashSet;2
+C#;DataStructures;Expert;Melyik C# gyûjtemény mérete automatikusan változik?;List;Array;Queue;Stack;List;2
+C#;DataStructures;Expert;Mi az a sor (queue) C#-ban?;FIFO (First In, First Out);LIFO (Last In, First Out);Rendezési mechanizmus;Egyik sem;FIFO (First In, First Out);2
+C#;DataStructures;Expert;Hogyan mûködik a linked list C#-ban?;Elemei mutatókat tartalmaznak;Elemek közvetlen hozzáféréssel rendelkeznek;Csak tömbként használható;Nem támogatott C#-ban;Elemei mutatókat tartalmaznak;2
+Java;Type;Expert;Mi az alapértelmezett értéke egy boolean változónak Java-ban?;false;true;;Nincs alapértelmezett értéke;false;2
+Java;Type;Expert;Mit jelent a boxing Java-ban?;Értéktípus átalakítása objektummá;Objektum lebontása;Tömb inicializálása;Egyik sem;Értéktípus átalakítása objektummá;2
+Java;Type;Expert;Mi az int alapértelmezett értéke Java-ban?;0;;-1;Egyik sem;0;2
+Java;Type;Expert;Melyik típus képviseli a karakterláncot Java-ban?;String;char;text;Array;String;2
+Java;Type;Expert;Hogyan definiálható egy konstans Java-ban?;final kulcsszóval;const kulcsszóval;static kulcsszóval;constant kulcsszóval;final kulcsszóval;2
+Java;Loop;Expert;Melyik Java ciklus biztosítja, hogy legalább egyszer lefusson?;do-while;while;for;foreach;do-while;2
+Java;Loop;Expert;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;2
+Java;OOP;Expert;Mit jelent a final kulcsszó egy osztályon?;Az osztály nem örökölhetõ;Az osztály nem módosítható;Az osztály nem példányosítható;Egyik sem;Az osztály nem örökölhetõ;2
+Java;OOP;Expert;Mit jelent a polimorfizmus Java-ban?;Ugyanaz a metódus különbözõen viselkedik;Több osztály deklarálása;Több objektum létrehozása;Egyik sem;Ugyanaz a metódus különbözõen viselkedik;2
+Java;OOP;Expert;Mi az interfész Java-ban?;Egy szerzõdés az osztályok számára;Egy osztály típusa;Egy statikus metódus;Egyik sem;Egy szerzõdés az osztályok számára;2
+Java;Methods;Expert;Hogyan deklarálsz statikus metódust Java-ban?;A static kulcsszóval;A final kulcsszóval;A const kulcsszóval;Egyik sem;A static kulcsszóval;2
+Java;Methods;Expert;Mit jelent a void visszatérési típus Java-ban?;Nem ad vissza értéket;Null értéket ad vissza;Egyik sem;Hibát dob;Nem ad vissza értéket;2
+Java;Methods;Expert;Mit jelent az args paraméter a main metódusban?;Parancssori argumentumok;Változó argumentumok;Konstansok;Egyik sem;Parancssori argumentumok;2
+Java;Methods;Expert;Hogyan definiálsz generikus metódust Java-ban?;A <T> szintaxis használatával;A generic kulcsszóval;A implements kulcsszóval;Egyik sem;A <T> szintaxis használatával;2
+Java;Methods;Expert;Mi történik, ha egy metódus hibát dob Java-ban?;Try-catch blokkban kezelheted;A program leáll;A hiba figyelmen kívül marad;Egyik sem;Try-catch blokkban kezelheted;2
+Java;Methods;Expert;Hogyan biztosítod, hogy egy metódus ne lehessen felüldefiniálva?;A final kulcsszóval;Az abstract kulcsszóval;A static kulcsszóval;Egyik sem;A final kulcsszóval;2
+Java;Methods;Expert;Hogyan definiálsz generikus metódust Java-ban?;A <T> szintaxis használatával;A generic kulcsszóval;A implements kulcsszóval;Egyik sem;A <T> szintaxis használatával;2
+Java;Methods;Expert;Hogyan hívsz meg egy másik metódust ugyanabban az osztályban?;Egyszerûen a metódus nevének használatával;A this kulcsszóval;Az osztály nevével;Egyik sem;Egyszerûen a metódus nevének használatával;2
+Java;Methods;Expert;Mi a különbség a metódus túlterhelése (overloading) és felüldefiniálása (overriding) között?;A túlterhelés különbözõ paramétereket használ;A felüldefiniálás más metódusnevet igényel;Nincs különbség;Egyik sem;A túlterhelés különbözõ paramétereket használ;2
+Java;Methods;Expert;Hogyan deklarálsz egy absztrakt metódust?;abstract kulcsszóval;final kulcsszóval;static kulcsszóval;Egyik sem;abstract kulcsszóval;2
+Java;Methods;Expert;Mit jelent a synchronized kulcsszó Java-ban?;Szálbiztos kódot biztosít;Megakadályozza a metódus felüldefiniálását;Egy metódust véglegessé tesz;Egyik sem;Szálbiztos kódot biztosít;2
+Java;DataStructures;Expert;Melyik Java gyûjtemény tárolja kulcs-érték párokat?;HashMap;ArrayList;LinkedList;Vector;HashMap;2
+Java;DataStructures;Expert;Hogyan iterálhatsz egy listán Java-ban?;Iterator használatával;while ciklussal;if utasítással;Egyik sem;Iterator használatával;2
+Java;DataStructures;Expert;Hogyan iterálhatsz egy listán Java-ban?;Iterator használatával;while ciklussal;if utasítással;Egyik sem;Iterator használatával;2
+Javascript;Type;Expert;Mi a különbség a 'let' és a 'var' között?;'let' blokkszintû, 'var' függvényszintû;'let' csak egyszer használható;'var' nem inicializálható;Egyik sem;'let' blokkszintû, 'var' függvényszintû;3
+Javascript;Type;Expert;Melyik primitív típus nem létezik JavaScript-ben?;integer;string;boolean;undefined;integer;3
+Javascript;Type;Expert;Hogyan hozhatsz létre objektumot JavaScript-ben?;A '{}' szintaxissal;A 'new object()' szintaxissal;Mindkettõ;Egyik sem;A '{}' szintaxissal;3
+Javascript;Type;Expert;Melyik primitív típus nem létezik JavaScript-ben?;integer;string;boolean;undefined;integer;3
+Javascript;Loop;Expert;Hogyan iterálhatsz egy tömbön JavaScript-ben?;for...of;while;if;do-while;for...of;3
+Javascript;Loop;Expert;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;3
+Javascript;Loop;Expert;Mit jelent a nested loop?;Ciklus egy másik ciklusban;Egy ciklus megszakítása;Egy ciklus újraindítása;Nincs ilyen fogalom;Ciklus egy másik ciklusban;3
+Javascript;OOP;Expert;Mit jelent a constructor metódus?;Egy osztály inicializáló metódusa;Egy statikus metódus;Egy privát metódus;Egyik sem;Egy osztály inicializáló metódusa;3
+Javascript;Methods;Expert;Mit jelent a return kulcsszó?;Kilép egy függvénybõl, és visszaad egy értéket;Egy értéket állít be;Egy függvényt inicializál;Egyik sem;Kilép egy függvénybõl, és visszaad egy értéket;3
+Javascript;Methods;Expert;Hogyan biztosítod, hogy egy függvény mindig ugyanazt az értéket adja vissza?;Tisztán funkcionális (pure function);Statikus metódussal;Privát változóval;Egyik sem;Tisztán funkcionális (pure function);3
+Javascript;Methods;Expert;Hogyan definiálsz egy nyílfüggvényt (arrow function)?;() => {};function() {};=> function();function => {};() => {};3
+Javascript;Methods;Expert;Hogyan definiálsz egy nyílfüggvényt (arrow function)?;() => {};function() {};=> function();function => {};() => {};3
+Javascript;Methods;Expert;Mit jelent a callback függvény?;Egy függvény, amelyet egy másik függvény argumentumként hív meg;Egy metódus, amely mindig true-t ad vissza;Egy statikus függvény;Egyik sem;Egy függvény, amelyet egy másik függvény argumentumként hív meg;3
+Javascript;Methods;Expert;Mit jelent a return kulcsszó?;Kilép egy függvénybõl, és visszaad egy értéket;Egy értéket állít be;Egy függvényt inicializál;Egyik sem;Kilép egy függvénybõl, és visszaad egy értéket;3
+Javascript;Methods;Expert;Mit jelent a return kulcsszó?;Kilép egy függvénybõl, és visszaad egy értéket;Egy értéket állít be;Egy függvényt inicializál;Egyik sem;Kilép egy függvénybõl, és visszaad egy értéket;3
+Javascript;DataStructures;Expert;Melyik adatszerkezet nem engedélyez duplikált elemeket?;Set;Array;Map;Object;Set;3
+Javascript;DataStructures;Expert;Hogyan távolíthatsz el egy elemet egy Map-bõl?;delete metódussal;remove metódussal;pop metódussal;Egyik sem;delete metódussal;3
+Javascript;DataStructures;Expert;Hogyan iterálhatsz egy Map-en?;forEach metódussal;for ciklussal;while ciklussal;if utasítással;forEach metódussal;3
+Javascript;DataStructures;Expert;Hogyan távolíthatsz el egy elemet egy Map-bõl?;delete metódussal;remove metódussal;pop metódussal;Egyik sem;delete metódussal;3
+Python;Type;Expert; Melyik a következõ  típusok közül nem numerikus típus Pythonban?; int; float; bool; complex; bool;0
+Python;Type;Expert; Mi a következõ  kód kimenete? x = 10.5 isinstance(x, float); True; False; Error; None; True;0
+Python;Type;Expert; Mi a következõ  kód kimenete? x = [1, 2, 3] y = x x[0] = 10 print(y);[10, 2, 3];[1, 2, 3];[10, 1, 2, 3]; [1, 10, 2, 3];[10, 2, 3];0
+Python;Type;Expert; Mi a következõ  kód kimenete? x = (1, 2, 3) y = x x += (4,) print(y);(1, 2, 3);(1, 2, 3, 4);-4;Error;(1, 2, 3);0
+Python;Loop;Expert; Mi a következõ  kód kimenete? for i in range(5): if i == 3: break print(i); 0 1 2 3; 0 1 2 3 4; 0 1 2; 0 1 2 3 4 5; 0 1 2;0
+Python;Loop;Expert; Mi a következõ  kód kimenete? for i in range(5): if i == 2: continue print(i); 0 1 2 3 4; 0 1 3 4; 0 1 3 4 5; 1 3 4 5; 0 1 3 4;0
+Python;Loop;Expert; Mi a következõ  kód kimenete? for i in range(3): for j in range(2): print(i, j); 0 0 0 1 1 0 1 1 2 0 2 1; 0 1 2 3 4 5; 0 1 2; 0 0 1 1 2 2; 0 0 0 1 1 0 1 1 2 0 2 1;0
+Python;Loop;Expert; Mi a következõ  kód kimenete? for i in range(5): if i % 2 == 0: print(i); 0 2 4; 1 3 5; 0 1 2 3 4; 2 4 6; 0 2 4;0
+Python;OOP;Expert; Mi a következõ  kód kimenete? class A: def m(self): print('A') class B(A): def m(self): print('B') b = B() b.m(); A; B; A B; Error; B;0
+Python;OOP;Expert; Mi a következõ  kód kimenete? class A: def __init__(self): self.x = 1 class B(A): def __init__(self): super().__init__() self.y = 2 b = B() print(b.x, b.y); 1 2; 1 1; 2 2; Error; 1 2;0
+Python;OOP;Expert; Mi a következõ  kód kimenete? class A: def __init__(self): self.x = 1 def display(self): print(self.x) class B(A): def display(self): print(self.x * 2) b = B() b.display();2;1; Error; None;2;1
+Python;OOP;Expert;" Mi a következõ  kód kimenete? class A: def display(self): print(""A"") class B(A): def display(self): super().display() print(""B"") b = B() b.display(), A B"; A; B; Error; None; A B;1
+Python;Methods;Expert; Mi a következõ  kód kimenete? def func(x): return x * 2 result = func(5);5;10;15;20;10;1
+Python;Methods;Expert;  Mi a következõ  kód kimenete? def func(a,  b=5): return a + b result = func(3);3;8; Error; None;8;1
+Python;Methods;Expert; Mi a következõ  kód kimenete? def func(**kwargs): return kwargs print(func(a=1, b=2));{'a': 1, 'b': 2};(1, 2);[1, 2];Error;{'a': 1, 'b': 2};1
+Python;Methods;Expert; Mi a következõ  kód kimenete?def func(*args): return sum(args) print(func(1, 2, 3, 4));10;24;1234;Error;10;1
+Python;DataStructures;Expert; Mi az a set Pythonban?; Egy rendezetlen egyedi elemek gy?jtem?nye; Egy módosítható elemek sorozata; Egy kulcs-érték párok gy?jteménye; Egy függvény több visszatérési értékkel; Egy rendezetlen egyedi elemek gy?jteménye;1
+Python;DataStructures;Expert; Mi a következõ  kód kimenete? my_set = {1, 2, 3} my_set.add(4) print(my_set);{1, 2, 3, 4}; {1, 2, 3};{1, 2, 3, 4, 5};{4, 5, 6};{1, 2, 3, 4};1
+Python;DataStructures;Expert; Mi a következõ  kód kimenete? my_tuple = (1, 2, 3) print(my_tuple[1]);2;1;3;Error;2;1
+Python;DataStructures;Expert; Mi a következõ  kód kimenete? my_set = {1, 2, 3} my_set.remove(2) print(my_set);{1, 3};{1, 2, 3};{2, 3}; {1, 2};{1, 3};1
+Sql;Type;Expert;Mit jelent a NULL érték SQL-ben?;Egy ismeretlen vagy hiányzó értéket;Egy nulla számot;Egy üres stringet;Egyik sem;Egy ismeretlen vagy hiányzó értéket;3
+Sql;Type;Expert;Mi a különbség a CHAR és a VARCHAR adattípusok között?;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;A VARCHAR fix hosszúságú, a CHAR változó hosszúságú;Mindkettõ fix hosszúságú;Mindkettõ változó hosszúságú;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;3
+Sql;Type;Expert;Hogyan definiálható egy dátum és idõ SQL-ben?;DATETIME;VARCHAR;BOOLEAN;NUMBER;DATETIME;3
+Sql;Type;Expert;Melyik adattípus használható dátumok tárolására?;DATE;INT;VARCHAR;TEXT;DATE;3
+Sql;Query;Expert;Hogyan írnál egy SQL lekérdezést, amely az 'employees' tábla összes sorát megjeleníti?;"SELECT * FROM employees;";"SHOW * FROM employees;";"DISPLAY employees;";"SELECT ALL FROM employees;";"SELECT * FROM employees;";3
+Sql;Query;Expert;Mire használható a JOIN SQL-ben?;Táblák összekapcsolására;Táblák törlésére;Táblák oszlopainak hozzáadására;Egyik sem;Táblák összekapcsolására;3
+Sql;Query;Expert;Mire használható a SELECT utasítás?;Adatok lekérdezésére a táblákból;Új tábla létrehozására;Táblák törlésére;Egyik sem;Adatok lekérdezésére a táblákból;4
+Sql;DDL;Expert;Mit jelent az ALTER utasítás?;Egy meglévõ tábla módosítása;Egy tábla törlése;Egy új adatbázis létrehozása;Adatok beszúrása;Egy meglévõ tábla módosítása;4
+Sql;DDL;Expert;Hogyan nevezel át egy táblát SQL-ben?;"ALTER TABLE tábla_neve RENAME TO új_név;";"CHANGE TABLE tábla_neve TO új_név;";"RENAME TABLE új_név;";"UPDATE TABLE tábla_neve;";"ALTER TABLE tábla_neve RENAME TO új_név;";4
+Sql;DDL;Expert;Mit jelent a CONSTRAINT SQL-ben?;Egy feltétel a tábla oszlopaihoz;Egy oszlop neve;Egy tábla neve;Egyik sem;Egy feltétel a tábla oszlopaihoz;4
+Sql;DDL;Expert;Mit jelent a PRIMARY KEY SQL-ben?;Egy oszlop vagy oszlopcsoport, amely egyedileg azonosítja a sorokat;Egy oszlop alapértelmezett értékének beállítása;Egy index neve;Egyik sem;Egy oszlop vagy oszlopcsoport, amely egyedileg azonosítja a sorokat;4
+Sql;DML;Expert;Hogyan törölsz adatokat SQL-ben?;"DELETE FROM tábla_neve;";"REMOVE ROW tábla_neve;";"CLEAR ROWS tábla_neve;";"TRUNCATE tábla_neve;";"DELETE FROM tábla_neve;";4
+Sql;DML;Expert;Hogyan számolhatod meg a táblában lévõ sorokat?;"SELECT COUNT(*) FROM tábla_neve;";"COUNT ROWS tábla_neve;";"CALCULATE ROWS tábla_neve;";"SUM ROWS tábla_neve;";"SELECT COUNT(*) FROM tábla_neve;";4
+Sql;DML;Expert;Hogyan törölsz adatokat SQL-ben?;"DELETE FROM tábla_neve;";"REMOVE ROW tábla_neve;";"CLEAR ROWS tábla_neve;";"TRUNCATE tábla_neve;";"DELETE FROM tábla_neve;";4
+Sql;Indexes;Expert;Hogyan hozhatsz létre egy indexet egy táblához?;"CREATE INDEX index_név ON tábla_neve (oszlop);";"ADD INDEX TO tábla_neve;";"NEW INDEX tábla_neve;";"CREATE ON INDEX tábla_neve;";"CREATE INDEX index_név ON tábla_neve (oszlop);";4
+Sql;Indexes;Expert;Mire használhatók az indexek SQL-ben?;Lekérdezések gyorsítására;Táblák törlésére;Adatok másolására;Adatok rendezésére;Lekérdezések gyorsítására;4
+Sql;Indexes;Expert;Hogyan biztosítod, hogy egy oszlopban ne legyenek duplikált értékek?;UNIQUE kulcsszóval;INDEX kulcsszóval;PRIMARY kulcsszóval;FOREIGN kulcsszóval;UNIQUE kulcsszóval;4
+Sql;Indexes;Expert;Hogyan hozhatsz létre egy indexet egy táblához?;"CREATE INDEX index_név ON tábla_neve (oszlop);";"ADD INDEX TO tábla_neve;";"NEW INDEX tábla_neve;";"CREATE ON INDEX tábla_neve;";"CREATE INDEX index_név ON tábla_neve (oszlop);";4
+Sql;Indexes;Expert;Hogyan biztosítod, hogy egy oszlopban ne legyenek duplikált értékek?;UNIQUE kulcsszóval;INDEX kulcsszóval;PRIMARY kulcsszóval;FOREIGN kulcsszóval;UNIQUE kulcsszóval;4
+C#;Type;Intermediate;Mekkora egy 'float' mérete C#-ban?;4 byte;8 byte;2 byte;Az architektúrától függ;4 byte;1
+C#;Type;Intermediate;Melyik C# kulcsszóval hozható létre enumerált típus?;enum;struct;enumtype;datatype;enum;1
+C#;Type;Intermediate;Hogyan hozhatsz létre konstansot C#-ban?;const kulcsszóval;var kulcsszóval;let kulcsszóval;static kulcsszóval;const kulcsszóval;1
+C#;Loop;Intermediate;Mi a 'break' utasítás célja a ciklusokban?;Kilépés a ciklusból;Újraindítja a ciklust;Megállítja a ciklust;Egyik sem;Kilépés a ciklusból;1
+C#;Loop;Intermediate;Melyik C# ciklus a legmegfelelõbb kollekciók iterálására?;foreach;for;while;do-while;foreach;1
+C#;Loop;Intermediate;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;1
+C#;Loop;Intermediate;Mit használhatsz a ciklusban az aktuális iteráció kihagyására?;continue;break;return;switch;continue;1
+C#;Loop;Intermediate;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;1
+C#;Loop;Intermediate;Mit használhatsz a ciklusban az aktuális iteráció kihagyására?;continue;break;return;switch;continue;1
+C#;Loop;Intermediate;Hogyan iterálhatsz visszafelé egy tömbön egy ciklusban?;Indexet csökkentve;Indexet növelve;break-kel;Egyik sem;Indexet csökkentve;1
+C#;OOP;Intermediate;Mi a default access modifier C# osztályoknál?;internal;public;private;protected;internal;1
+C#;OOP;Intermediate;Hogyan biztosítja az öröklés az újrahasznosítást?;A kód újrafelhasználható az alosztályokban;Csak a bázisosztály használja a kódot;Csak a privát metódusok öröklõdnek;Egyik sem;A kód újrafelhasználható az alosztályokban;1
+C#;OOP;Intermediate;Mi az öröklés célja C#-ban?;Kód újrafelhasználása egy alaposztályból;Nem kapcsolódó osztályok létrehozása;Kód újrafelhasználásának megakadályozása;Egyik sem;Kód újrafelhasználása egy alaposztályból;1
+C#;OOP;Intermediate;Mi a default access modifier C# osztályoknál?;internal;public;private;protected;internal;2
+C#;OOP;Intermediate;Hogyan valósítasz meg több interfészt egy osztályban C#-ban?;Vesszõvel elválasztva;Pontosvesszõvel elválasztva;Kettõsponttal elválasztva;Egyik sem;Vesszõvel elválasztva;2
+C#;Methods;Intermediate;Hogyan hívsz meg egy statikus metódust C#-ban?;Az osztály nevének használatával;Egy példánnyal;Egy delegáttal;Egyik sem;Az osztály nevének használatával;2
+C#;Methods;Intermediate;Hogyan definiálsz egy generikus metódust C#-ban?;Az általános típus megadásával;Az interface szó használatával;Az implementáció helyén;Egyik sem;Az általános típus megadásával;2
+C#;DataStructures;Intermediate;Melyik gyûjtemény automatikusan növekszik?;List;Array;Queue;Stack;List;2
+C#;DataStructures;Intermediate;Hogyan biztosítja a Dictionary a gyors keresést?;Kulcs-hashelés használatával;Bináris kereséssel;Sorba rendezéssel;Egyik sem;Kulcs-hashelés használatával;2
+C#;DataStructures;Intermediate;Melyik C# adatszerkezetet használnád konstans idõ alatt történõ keresésekhez?;HashSet;List;Queue;Array;HashSet;2
+C#;DataStructures;Intermediate;Melyik adatszerkezetet használhatod prioritási sorrendhez?;PriorityQueue;HashSet;Stack;Queue;PriorityQueue;2
+C#;DataStructures;Intermediate;Melyik gyûjtemény automatikusan növekszik?;List;Array;Queue;Stack;List;2
+C#;DataStructures;Intermediate;Hogyan biztosítja a Dictionary a gyors keresést?;Kulcs-hashelés használatával;Bináris kereséssel;Sorba rendezéssel;Egyik sem;Kulcs-hashelés használatával;2
+Java;Type;Intermediate;Melyik típus nem primitív Java-ban?;String;int;float;double;String;2
+Java;Type;Intermediate;Hogyan hozhatsz létre tömböt Java-ban?;new kulcsszóval;create kulcsszóval;array kulcsszóval;make kulcsszóval;new kulcsszóval;2
+Java;Loop;Intermediate;Melyik Java ciklus alkalmas fix számú iterációra?;for;while;foreach;do-while;for;2
+Java;Loop;Intermediate;Mi a break utasítás célja a ciklusokban?;Kilépés a ciklusból;Újraindítja a ciklust;Megállítja a ciklust;Egyik sem;Kilépés a ciklusból;2
+Java;Loop;Intermediate;Melyik Java ciklus alkalmas fix számú iterációra?;for;while;foreach;do-while;for;2
+Java;Loop;Intermediate;Mi a break utasítás célja a ciklusokban?;Kilépés a ciklusból;Újraindítja a ciklust;Megállítja a ciklust;Egyik sem;Kilépés a ciklusból;2
+Java;Loop;Intermediate;Mit csinál a continue utasítás Java-ban?;Átugrik a következõ iterációra;Befejezi a ciklust;Kilép a metódusból;Egyik sem;Átugrik a következõ iterációra;2
+Java;Loop;Intermediate;Melyik Java ciklus biztosítja, hogy legalább egyszer lefusson?;do-while;while;for;foreach;do-while;2
+Java;Loop;Intermediate;Mit csinál a continue utasítás Java-ban?;Átugrik a következõ iterációra;Befejezi a ciklust;Kilép a metódusból;Egyik sem;Átugrik a következõ iterációra;2
+Java;OOP;Intermediate;Mi az öröklés célja Java-ban?;Kód újrafelhasználása egy származtatott osztályban;Nem kapcsolódó osztályok létrehozása;Kód újrafelhasználásának megakadályozása;Egyik sem;Kód újrafelhasználása egy származtatott osztályban;2
+Java;OOP;Intermediate;Mit jelent a polimorfizmus Java-ban?;Ugyanaz a metódus különbözõen viselkedik;Több osztály deklarálása;Több objektum létrehozása;Egyik sem;Ugyanaz a metódus különbözõen viselkedik;2
+Java;OOP;Intermediate;Mi az interfész Java-ban?;Egy szerzõdés az osztályok számára;Egy osztály típusa;Egy statikus metódus;Egyik sem;Egy szerzõdés az osztályok számára;2
+Java;OOP;Intermediate;Mi az öröklés célja Java-ban?;Kód újrafelhasználása egy származtatott osztályban;Nem kapcsolódó osztályok létrehozása;Kód újrafelhasználásának megakadályozása;Egyik sem;Kód újrafelhasználása egy származtatott osztályban;2
+Java;OOP;Intermediate;Mit jelent az abstract kulcsszó Java-ban?;Az osztály nem példányosítható;Az osztály privát;Az osztály minden metódusa implementált;Egyik sem;Az osztály nem példányosítható;2
+Java;OOP;Intermediate;Mi az öröklés célja Java-ban?;Kód újrafelhasználása egy származtatott osztályban;Nem kapcsolódó osztályok létrehozása;Kód újrafelhasználásának megakadályozása;Egyik sem;Kód újrafelhasználása egy származtatott osztályban;2
+Java;OOP;Intermediate;Mit jelent a polimorfizmus Java-ban?;Ugyanaz a metódus különbözõen viselkedik;Több osztály deklarálása;Több objektum létrehozása;Egyik sem;Ugyanaz a metódus különbözõen viselkedik;2
+Java;Methods;Intermediate;Mi a különbség a metódus túlterhelése (overloading) és felüldefiniálása (overriding) között?;A túlterhelés különbözõ paramétereket használ;A felüldefiniálás más metódusnevet igényel;Nincs különbség;Egyik sem;A túlterhelés különbözõ paramétereket használ;2
+Java;Methods;Intermediate;Hogyan hívsz meg egy másik metódust ugyanabban az osztályban?;Egyszerûen a metódus nevének használatával;A this kulcsszóval;Az osztály nevével;Egyik sem;Egyszerûen a metódus nevének használatával;2
+Java;Methods;Intermediate;Mit jelent az args paraméter a main metódusban?;Parancssori argumentumok;Változó argumentumok;Konstansok;Egyik sem;Parancssori argumentumok;2
+Java;Methods;Intermediate;Hogyan biztosítod, hogy egy metódus ne lehessen felüldefiniálva?;A final kulcsszóval;Az abstract kulcsszóval;A static kulcsszóval;Egyik sem;A final kulcsszóval;2
+Java;DataStructures;Intermediate;Melyik Java osztály használható prioritási sorrendhez?;PriorityQueue;HashMap;HashSet;Vector;PriorityQueue;2
+Java;DataStructures;Intermediate;Hogyan törölhetsz elemet egy listából?;remove metódussal;delete metódussal;clear metódussal;Egyik sem;remove metódussal;2
+Java;DataStructures;Intermediate;Hogyan rendezhetsz egy listát Java-ban?;Collections.sort() metódussal;Array.sort() metódussal;Set.sort() metódussal;Egyik sem;Collections.sort() metódussal;2
+Java;DataStructures;Intermediate;Melyik Java gyûjtemény tárolja kulcs-érték párokat?;HashMap;ArrayList;LinkedList;Vector;HashMap;2
+Java;DataStructures;Intermediate;Melyik Java gyûjtemény nem engedélyez duplikátumokat?;HashSet;ArrayList;LinkedList;Queue;HashSet;2
+Java;DataStructures;Intermediate;Mi a stack viselkedése Java-ban?;LIFO (Last In, First Out);FIFO (First In, First Out);Véletlenszerû hozzáférés;Egyik sem;LIFO (Last In, First Out);2
+Java;DataStructures;Intermediate;Hogyan törölhetsz elemet egy listából?;remove metódussal;delete metódussal;clear metódussal;Egyik sem;remove metódussal;2
+Java;DataStructures;Intermediate;Hogyan rendezhetsz egy listát Java-ban?;Collections.sort() metódussal;Array.sort() metódussal;Set.sort() metódussal;Egyik sem;Collections.sort() metódussal;2
+Javascript;Type;Intermediate;Melyik primitív típus nem létezik JavaScript-ben?;integer;string;boolean;undefined;integer;3
+Javascript;Type;Intermediate;Mit jelent az undefined érték JavaScript-ben?;Egy változót deklaráltak, de nem inicializálták;Egy változót inicializáltak, de null értékû;Hibát jelent;Egyik sem;Egy változót deklaráltak, de nem inicializálták;3
+Javascript;Type;Intermediate;Hogyan hozol létre állandó változót JavaScript-ben?;A 'const' kulcsszóval;A 'let' kulcsszóval;A 'final' kulcsszóval;A 'static' kulcsszóval;A 'const' kulcsszóval;3
+Javascript;Type;Intermediate;Melyik primitív típus nem létezik JavaScript-ben?;integer;string;boolean;undefined;integer;3
+Javascript;Type;Intermediate;Mit jelent az undefined érték JavaScript-ben?;Egy változót deklaráltak, de nem inicializálták;Egy változót inicializáltak, de null értékû;Hibát jelent;Egyik sem;Egy változót deklaráltak, de nem inicializálták;3
+Javascript;Type;Intermediate;Mi a különbség a 'let' és a 'var' között?;'let' blokkszintû, 'var' függvényszintû;'let' csak egyszer használható;'var' nem inicializálható;Egyik sem;'let' blokkszintû, 'var' függvényszintû;3
+Javascript;Loop;Intermediate;Melyik ciklus biztosítja, hogy legalább egyszer lefut?;do-while;while;for;foreach;do-while;3
+Javascript;Loop;Intermediate;Melyik utasítás használható a ciklus megszakítására?;break;continue;return;stop;break;3
+Javascript;Loop;Intermediate;Hogyan definiálhatsz végtelen ciklust JavaScript-ben?;while(true);"for(;;)";Mindkettõ;Egyik sem;while(true);3
+Javascript;Loop;Intermediate;Hogyan iterálhatsz egy tömbön JavaScript-ben?;for...of;while;if;do-while;for...of;3
+Javascript;Loop;Intermediate;Hogyan definiálhatsz végtelen ciklust JavaScript-ben?;while(true);"for(;;)";Mindkettõ;Egyik sem;while(true);3
+Javascript;Loop;Intermediate;Hogyan iterálhatsz egy objektum tulajdonságain?;for...in;for...of;while;do-while;for...in;3
+Javascript;OOP;Intermediate;Hogyan hozhatsz létre egy osztályt?;class kulcsszóval;new kulcsszóval;this kulcsszóval;object kulcsszóval;class kulcsszóval;3
+Javascript;OOP;Intermediate;Mit jelent az extends kulcsszó JavaScript-ben?;Egy osztály öröklését;Egy új metódus létrehozását;Egy objektum klónozását;Egyik sem;Egy osztály öröklését;3
+Javascript;OOP;Intermediate;Mi a célja az öröklésnek JavaScript-ben?;Kód újrafelhasználása;Új osztály létrehozása;Osztályok másolása;Egyik sem;Kód újrafelhasználása;3
+Javascript;OOP;Intermediate;Mit jelent a prototype lánc?;Egy mechanizmus az objektumok öröklésére;Egy metódus túlterhelésére;Egy új objektum inicializálására;Egyik sem;Egy mechanizmus az objektumok öröklésére;3
+Javascript;OOP;Intermediate;Hogyan hozhatsz létre egy osztályt?;class kulcsszóval;new kulcsszóval;this kulcsszóval;object kulcsszóval;class kulcsszóval;3
+Javascript;OOP;Intermediate;Mi a célja az öröklésnek JavaScript-ben?;Kód újrafelhasználása;Új osztály létrehozása;Osztályok másolása;Egyik sem;Kód újrafelhasználása;3
+Javascript;OOP;Intermediate;Mit jelent az osztály JavaScript-ben?;Egy sablon objektumok létrehozásához;Egy változó típus;Egy funkció típusa;Egyik sem;Egy sablon objektumok létrehozásához;3
+Javascript;OOP;Intermediate;Mit jelent az Object.freeze metódus?;Egy objektum módosíthatatlanná tétele;Egy objektum törlése;Egy új objektum inicializálása;Egyik sem;Egy objektum módosíthatatlanná tétele;3
+Javascript;OOP;Intermediate;Mit jelent a prototype lánc?;Egy mechanizmus az objektumok öröklésére;Egy metódus túlterhelésére;Egy új objektum inicializálására;Egyik sem;Egy mechanizmus az objektumok öröklésére;3
+Javascript;Methods;Intermediate;Hogyan hívsz meg egy metódust egy objektumban?;Az objektum neve és a metódus neve ponttal elválasztva;A metódus neve zárójel nélkül;A metódus neve zárójelekkel;Egyik sem;Az objektum neve és a metódus neve ponttal elválasztva;3
+Javascript;Methods;Intermediate;Mit jelent a return kulcsszó?;Kilép egy függvénybõl, és visszaad egy értéket;Egy értéket állít be;Egy függvényt inicializál;Egyik sem;Kilép egy függvénybõl, és visszaad egy értéket;3
+Javascript;Methods;Intermediate;Hogyan hívsz meg egy metódust egy objektumban?;Az objektum neve és a metódus neve ponttal elválasztva;A metódus neve zárójel nélkül;A metódus neve zárójelekkel;Egyik sem;Az objektum neve és a metódus neve ponttal elválasztva;3
+Javascript;Methods;Intermediate;Mit jelent a bind metódus JavaScript-ben?;Egy függvényhez állandó kontextust köt;Egy függvényt meghív;Egy objektumot klónoz;Egyik sem;Egy függvényhez állandó kontextust köt;3
+Javascript;DataStructures;Intermediate;Hogyan iterálhatsz egy Map-en?;forEach metódussal;for ciklussal;while ciklussal;if utasítással;forEach metódussal;3
+Javascript;DataStructures;Intermediate;Melyik adatszerkezet nem engedélyez duplikált elemeket?;Set;Array;Map;Object;Set;3
+Javascript;DataStructures;Intermediate;Hogyan távolíthatsz el egy elemet egy Map-bõl?;delete metódussal;remove metódussal;pop metódussal;Egyik sem;delete metódussal;3
+Javascript;DataStructures;Intermediate;Hogyan iterálhatsz egy Map-en?;forEach metódussal;for ciklussal;while ciklussal;if utasítással;forEach metódussal;3
+Javascript;DataStructures;Intermediate;Hogyan iterálhatsz egy Map-en?;forEach metódussal;for ciklussal;while ciklussal;if utasítással;forEach metódussal;3
+Javascript;DataStructures;Intermediate;Hogyan távolíthatsz el egy elemet egy Map-bõl?;delete metódussal;remove metódussal;pop metódussal;Egyik sem;delete metódussal;3
+Python;Type;Intermediate; Hogyan ellenõrizheted egy változó típusát Pythonban?; type(); check(); typeof(); var(); type();0
+Python;Type;Intermediate; Hogyan konvertálsz egy számot stringgé Pythonban?; str(10); int(10); float(10); list(10); str(10);0
+Python;Type;Intermediate;" Mi a következõ  kód kimenete? print(int(""123""))";123;" ""123"""; 12.3; Error;123;0
+Python;Type;Intermediate; Mi a következõ  kód kimenete? print(float(10)); 10.0;10; 1.0; Error; 10.0;0
+Python;Loop;Intermediate; Mi a helyes szintaxis egy for ciklushoz Pythonban?; for i in range(10):;" for (i=0; i<10; i++)";" for i=0; i<10; i++"; foreach (i in range(10)); for i in range(10):;0
+Python;Loop;Intermediate; Mi a range(5) kimenete Pythonban?; 0 1 2 3 4; 1 2 3 4 5; 0 1 2 3 4 5; 1 2 3 4; 0 1 2 3 4;0
+Python;Loop;Intermediate; Mi a következõ  kód kimenete? for i in range(0, 10, 2): print(i); 0 2 4 6 8; 1 3 5 7 9; 0 1 2 3 4 5 6 7 8 9; 2 4 6 8 10; 0 2 4 6 8;0
+Python;Loop;Intermediate; Mi a következõ  kód kimenete? for i in range(1, 5): print(i); 1 2 3 4; 1 2 3 4 5; 0 1 2 3 4; 2 3 4 5; 1 2 3 4;0
+Python;OOP;Intermediate; Mi az öröklés Pythonban?;Egy osztály, amely másik osztály tulajdonságait örökli;Egy osztály, amely egy másik osztályt felülír;Egy osztály, amely több metódust tartalmaz;Egy osztály, amely privát változókat tartalmaz;Egy osztály, amely másik osztály tulajdonságait örökli;0
+Python;OOP;Intermediate; Hogyan hívsz meg egy osztály metódusát Pythonban?; self.method(); this.method(); class.method(); method(); self.method();0
+Python;OOP;Intermediate; Mi a következõ  kód kimenete? class MyClass: def __init__(self, value): self.value = value obj = MyClass(10) print(obj.value);10;0; None; Error;10;1
+Python;OOP;Intermediate; Mi a következõ  kód kimenete? class MyClass: def __init__(self,  value): self.value = value obj = MyClass(5) print(obj.value);5;0; None; Error;5;1
+Python;Methods;Intermediate; Hogyan adsz át paramétereket egy metódusnak Pythonban?; def my_method(param):; method my_method(param):; function my_method(param):; define my_method(param):; def my_method(param):;1
+Python;Methods;Intermediate; Hogyan adsz át változó számú paramétereket egy metódusnak Pythonban?; def my_method(*args):; def my_method(args*); def my_method(*args); def my_method(args); def my_method(*args):;1
+Python;Methods;Intermediate; Mi a következõ  kód kimenete? def divide(a, b): return a / b print(divide(10, 2)); 5.0;5;2; Error; 5.0;1
+Python;Methods;Intermediate; Mi a következõ  kód kimenete? def add(a, b): return a + b print(add(3, 4));7;34; Error; None;7;1
+Python;DataStructures;Intermediate; Hogyan hozol létre egy szótárat Pythonban?; my_dict = {}; my_dict = []; my_dict = (); my_dict = set(); my_dict = {};1
+Python;DataStructures;Intermediate; Mi a helyes szintaxis egy szótár elem eléréséhez Pythonban?; my_dict[key]; my_dict(key); my_dict.key; my_dict{key}; my_dict[key];1
+Python;DataStructures;Intermediate; Mi a következõ  kód kimenete? my_list = [1, 2, 3] print(my_list[1]);2;1;3;Error;2;1
+Python;DataStructures;Intermediate; Mi a következõ  kód kimenete? my_list = [1, 2, 3] my_list.remove(2) print(my_list);[1, 3];[1, 2, 3];[2, 3];[1, 2];[1, 3];1
+Sql;Type;Intermediate;Mi a különbség a CHAR és a VARCHAR adattípusok között?;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;A VARCHAR fix hosszúságú, a CHAR változó hosszúságú;Mindkettõ fix hosszúságú;Mindkettõ változó hosszúságú;A CHAR fix hosszúságú, a VARCHAR változó hosszúságú;3
+Sql;Type;Intermediate;Melyik adattípus használható dátumok tárolására?;DATE;INT;VARCHAR;TEXT;DATE;3
+Sql;Type;Intermediate;Mit tárol a BOOLEAN adattípus?;Igaz/hamis értékeket;Egész számokat;Dátumokat;Szövegeket;Igaz/hamis értékeket;3
+Sql;Query;Intermediate;Mit csinál a WHERE klauzula SQL-ben?;Szûri a sorokat a megadott feltétel alapján;Összegzi az adatokat;Csoportosítja az adatokat;Rendezést végez;Szûri a sorokat a megadott feltétel alapján;3
+Sql;Query;Intermediate;Mi a különbség az INNER JOIN és a LEFT JOIN között?;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;Nincs különbség;A LEFT JOIN csak a közös sorokat adja vissza;Az INNER JOIN az összes sort visszaadja;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;3
+Sql;Query;Intermediate;Hogyan írnál egy SQL lekérdezést, amely az 'employees' tábla összes sorát megjeleníti?;"SELECT * FROM employees;";"SHOW * FROM employees;";"DISPLAY employees;";"SELECT ALL FROM employees;";"SELECT * FROM employees;";4
+Sql;Query;Intermediate;Mire használható a SELECT utasítás?;Adatok lekérdezésére a táblákból;Új tábla létrehozására;Táblák törlésére;Egyik sem;Adatok lekérdezésére a táblákból;4
+Sql;Query;Intermediate;Mi a különbség az INNER JOIN és a LEFT JOIN között?;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;Nincs különbség;A LEFT JOIN csak a közös sorokat adja vissza;Az INNER JOIN az összes sort visszaadja;Az INNER JOIN csak a közös sorokat adja vissza, a LEFT JOIN az összes bal oldali sort;4
+Sql;DDL;Intermediate;Mire használható a CREATE utasítás?;Új tábla létrehozására;Adatok frissítésére;Adatok törlésére;Táblák rendezésére;Új tábla létrehozására;4
+Sql;DDL;Intermediate;Hogyan törölsz egy táblát SQL-ben?;"DROP TABLE tábla_neve;";"DELETE TABLE tábla_neve;";"REMOVE TABLE tábla_neve;";"CLEAR TABLE tábla_neve;";"DROP TABLE tábla_neve;";4
+Sql;DDL;Intermediate;Mit jelent a CONSTRAINT SQL-ben?;Egy feltétel a tábla oszlopaihoz;Egy oszlop neve;Egy tábla neve;Egyik sem;Egy feltétel a tábla oszlopaihoz;4
+Sql;DDL;Intermediate;Mire használható a CREATE utasítás?;Új tábla létrehozására;Adatok frissítésére;Adatok törlésére;Táblák rendezésére;Új tábla létrehozására;4
+Sql;DDL;Intermediate;Mit jelent a CASCADE kulcsszó a DROP utasításban?;Kapcsolt objektumok automatikus törlését;Csak az aktuális tábla törlését;Egy tábla átnevezését;Egyik sem;Kapcsolt objektumok automatikus törlését;4
+Sql;DDL;Intermediate;Hogyan nevezel át egy táblát SQL-ben?;"ALTER TABLE tábla_neve RENAME TO új_név;";"CHANGE TABLE tábla_neve TO új_név;";"RENAME TABLE új_név;";"UPDATE TABLE tábla_neve;";"ALTER TABLE tábla_neve RENAME TO új_név;";4
+Sql;DDL;Intermediate;Mit jelent az ALTER utasítás?;Egy meglévõ tábla módosítása;Egy tábla törlése;Egy új adatbázis létrehozása;Adatok beszúrása;Egy meglévõ tábla módosítása;4
+Sql;DML;Intermediate;Hogyan adsz hozzá új adatokat egy táblához SQL-ben?;"INSERT INTO tábla_neve;";"ADD ROW tábla_neve;";"UPDATE tábla_neve;";"CREATE ROW tábla_neve;";"INSERT INTO tábla_neve;";4
+Sql;DML;Intermediate;Mit jelent az UPDATE utasítás?;Adatok frissítése egy táblában;Adatok törlése;Új oszlopok hozzáadása;Táblák törlése;Adatok frissítése egy táblában;4
+Sql;DML;Intermediate;Mit jelent az UPSERT SQL-ben?;Adatok beszúrása vagy frissítése;Adatok törlése;Adatok másolása;Adatok átmásolása másik táblába;Adatok beszúrása vagy frissítése;4
+Sql;DML;Intermediate;Hogyan számolhatod meg a táblában lévõ sorokat?;"SELECT COUNT(*) FROM tábla_neve;";"COUNT ROWS tábla_neve;";"CALCULATE ROWS tábla_neve;";"SUM ROWS tábla_neve;";"SELECT COUNT(*) FROM tábla_neve;";4
+Sql;DML;Intermediate;Hogyan törölsz adatokat SQL-ben?;"DELETE FROM tábla_neve;";"REMOVE ROW tábla_neve;";"CLEAR ROWS tábla_neve;";"TRUNCATE tábla_neve;";"DELETE FROM tábla_neve;";4
+Sql;DML;Intermediate;Mit jelent az UPDATE utasítás?;Adatok frissítése egy táblában;Adatok törlése;Új oszlopok hozzáadása;Táblák törlése;Adatok frissítése egy táblában;4
+Sql;Indexes;Intermediate;Hogyan törölhetsz egy indexet SQL-ben?;"DROP INDEX index_név;";"DELETE INDEX index_név;";"REMOVE INDEX index_név;";"TRUNCATE INDEX index_név;";"DROP INDEX index_név;";4
+Sql;Indexes;Intermediate;Mire használható a CLUSTERED INDEX SQL-ben?;Az adatok fizikailag rendezésére;Csak az adatok keresésére;Egy tábla másolatának készítésére;Egyik sem;Az adatok fizikailag rendezésére;4
