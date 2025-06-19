@@ -19,14 +19,6 @@
     <p>Kérdés {{ progress }} / {{ total }}</p>
     {% set level_text = 'Könnyű' if question['Difficulty']|int <= 2 else 'Közepes' if question['Difficulty']|int <= 4 else 'Haladó' %}
     <p><strong>Nehézségi szint:</strong> {{ level_text }} ({{ question['Difficulty'] }})</p>
-    <div class="statistics">
-      <h3>Statisztika</h3>
-      <ul>
-        <li>Helyes válaszok eddig: {{ correct_so_far }}</li>
-        <li>Átlagos válaszidő: {{ avg_time_so_far }} másodperc</li>
-        <li>Előző kérdés nehézsége: {{ last_difficulty }}</li>
-      </ul>
-</div>
 
 </body>
 </html>

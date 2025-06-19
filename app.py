@@ -14,7 +14,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key'
 
 # Kérdésbank betöltése
-QUESTION_FILE = 'questions2.csv'
+QUESTION_FILE = 'questions4.csv'
 questions_df = pd.read_csv(QUESTION_FILE, delimiter=';', encoding='utf-8-sig')
 
 # Eredményfájl
@@ -80,13 +80,13 @@ def test():
     if distribution == 'uniform':
         chosen_difficulty = np.random.choice(difficulties)
     elif distribution == 'normal':
-        chosen_difficulty = int(np.clip(np.random.normal(loc=2, scale=1), difficulties.min(), difficulties.max()))
+        chosen_difficulty = int(np.clip(np.random.normal(loc=3, scale=1), 1, 5))
     elif distribution == 'binomial':
-        chosen_difficulty = np.random.binomial(n=4, p=0.5)
+        chosen_difficulty = np.random.binomial(n=4, p=0.5) + 1
     elif distribution == 'exponential':
-        chosen_difficulty = int(np.clip(np.random.exponential(scale=1.5), difficulties.min(), difficulties.max()))
+        chosen_difficulty = int(np.clip(np.random.exponential(scale=1.5) + 1, 1, 5))
     elif distribution == 'poisson':
-        chosen_difficulty = int(np.clip(np.random.poisson(lam=2), difficulties.min(), difficulties.max()))
+        chosen_difficulty = int(np.clip(np.random.poisson(lam=2) + 1, 1, 5))
     else:
         chosen_difficulty = np.random.choice(difficulties)
 
@@ -102,20 +102,8 @@ def test():
         session['asked_questions'].append(question_text)
         session['quiz_details'].append({'question': question['Question'], 'difficulty': question['Difficulty']})
 
-    correct_so_far = sum(1 for q in session['quiz_details'] if q.get('selected_answer') == q.get('correct_answer'))
-    elapsed_time = int(time.time() - session['start_time'])
-    avg_time_so_far = round(elapsed_time / len(session['quiz_details']), 2) if session['quiz_details'] else 0
-    last_difficulty = session['quiz_details'][-1].get('difficulty') if session['quiz_details'] else None
+    return render_template('test.html', question=question, progress=len(session['quiz_details']), total=len(available_questions))
 
-    return render_template(
-        'test.html',
-        question=question,
-        progress=len(session['quiz_details']),
-        total=len(available_questions),
-        correct_so_far=correct_so_far,
-        avg_time_so_far=avg_time_so_far,
-        last_difficulty=last_difficulty
-    )
 @app.route('/result')
 def result():
     total_time = int(time.time() - session['start_time'])

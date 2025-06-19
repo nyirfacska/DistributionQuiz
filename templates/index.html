@@ -13,14 +13,23 @@
                 return false;
             }
         }
+
+        function openGDPRPopup() {
+            document.getElementById('gdprPopup').style.display = 'flex';
+        }
+
+        function closeGDPRPopup(event) {
+            document.getElementById('gdprPopup').style.display = 'none';
+        }
     </script>
 </head>
 <body>
     <h2>Adaptív Teszt – Belépés</h2>
+
     <form method="post" onsubmit="validateForm(event)">
         <label>
             <input type="checkbox" name="gdpr" id="gdpr" required>
-            Elfogadom az <a href="#">adatkezelési tájékoztatót (GDPR)</a>
+            Elfogadom az <a href="javascript:void(0);" onclick="openGDPRPopup()">adatkezelési tájékoztatót (GDPR)</a>
         </label><br><br>
 
         <label>Neptun kód:
@@ -55,5 +64,24 @@
 
         <button type="submit">Teszt indítása</button>
     </form>
+
+    <!-- GDPR popup -->
+    <div id="gdprPopup" class="popup-overlay" onclick="closeGDPRPopup(event)">
+        <div class="popup-content" onclick="event.stopPropagation()">
+            <h3>Adatkezelési tájékoztató</h3>
+            <p>
+                A teszt kitöltésével Ön hozzájárul, hogy az Ön által megadott adatok (Neptun kód, válaszok, időráfordítás, kattintások)
+                a kutatás céljából, anonim módon feldolgozásra kerüljenek. Az adatkezelés célja az adaptív tesztelési rendszer
+                fejlesztése és oktatási célú elemzések készítése. Az adatokat kizárólag a kutatásért felelős oktató(k) kezelik,
+                harmadik félnek nem kerülnek továbbításra. A személyes adatok védelmét az Európai Parlament és a Tanács (EU) 2016/679
+                rendelete (GDPR) alapján biztosítjuk.
+            </p>
+            <p>
+                Bármikor kérheti az adatai törlését a projektvezetőnél. Az adatok megőrzési ideje legfeljebb 5 év.
+                Az adatkezelés jogalapja: Önkéntes hozzájárulás.
+            </p>
+            <button onclick="closeGDPRPopup()">Bezárás</button>
+        </div>
+    </div>
 </body>
 </html>
